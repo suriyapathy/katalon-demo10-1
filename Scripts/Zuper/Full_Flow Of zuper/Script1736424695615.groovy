@@ -404,3 +404,5 @@ Jobtitle = WebUI.getText(findTestObject('Zuper/Page_Zuper Pro - Job/Page_Zuper P
 
 assert Jobtitle == 'Validation Job' : ' wrong Job page  !'
 
+WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
+
