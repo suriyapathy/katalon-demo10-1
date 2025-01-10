@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Add Customer</name>
+   <tag></tag>
+   <elementGuidId>83466ffa-05b6-495c-bf3a-bb70d8558767</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[(text() = 'Add Customer' or . = 'Add Customer')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Customer&quot;i >> a</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>0a6da241-e2e3-4470-8a40-9c1eaf4c41ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-focus-indicator inline-flex items-center px-4 py-3 mt-4 h-9 border border-gray-300 shadow-xs text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 mat-stroked-button mat-button-base</value>
+      <webElementGuid>0f8dcda5-4ff2-4e31-bf41-b54364415a88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>934add66-432c-47fd-a130-f1e4f135bd81</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>d60bd087-c7cd-4375-9137-78bd92724d7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add Customer</value>
+      <webElementGuid>fdd97361-84ce-4cb4-a9fd-14e611d6eeaf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-accordion-child-6&quot;)/div[@class=&quot;mat-expansion-panel-body ng-tns-c126-70&quot;]/div[@class=&quot;p-6 flex flex-col items-center justify-center ng-star-inserted&quot;]/a[@class=&quot;mat-focus-indicator inline-flex items-center px-4 py-3 mt-4 h-9 border border-gray-300 shadow-xs text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 mat-stroked-button mat-button-base&quot;]</value>
+      <webElementGuid>ffbcc059-a5a3-493d-8024-6b120b20ed74</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-accordion-child-6']/div/div/a</value>
+      <webElementGuid>19eab9ee-62e1-4224-a478-e313fb6f0b3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer'])[1]/following::a[1]</value>
+      <webElementGuid>e936ff3b-5a21-4251-89ee-d27b26f67622</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Organization'])[1]/following::a[2]</value>
+      <webElementGuid>f0313db9-9895-4748-b09f-3d32cb33c124</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Property'])[1]/preceding::a[1]</value>
+      <webElementGuid>0a0c91ee-c0b3-40c8-9027-a2f3bb00c2a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[3]/mat-expansion-panel/div/div/div/a</value>
+      <webElementGuid>92fa003d-787d-4790-a98c-15a3b39d8a66</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Add Customer' or . = 'Add Customer')]</value>
+      <webElementGuid>c8c5a478-3f04-47aa-ae26-06b8eed2477b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Add Contract</name>
+   <tag></tag>
+   <elementGuidId>ee1194e9-0489-4785-a94f-b45e7cab7dcb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[(text() = 'Add Contract' or . = 'Add Contract')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Contract&quot;i >> a</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>c35f8002-8122-4dcd-ab2d-c97f99e2e244</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-focus-indicator inline-flex items-center px-4 py-3 mt-4 h-9 border border-gray-300 shadow-xs text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 mat-stroked-button mat-button-base mat-button-disabled</value>
+      <webElementGuid>84a54284-4214-4ebe-b47b-8619212fe4ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>disabled</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>7fb24dfe-0e35-4a90-add6-59f890880462</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>3a9ac3b8-7654-4e85-abbb-2e6919186f36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>c9ca40d2-3c25-4ce9-9d36-ee42fe5f704a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add Contract</value>
+      <webElementGuid>3d2d72bc-7a58-4449-b780-3f5152f5a5bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-accordion-child-8&quot;)/div[@class=&quot;mat-expansion-panel-body ng-tns-c126-74&quot;]/div[@class=&quot;p-6 flex flex-col items-center justify-center ng-star-inserted&quot;]/a[@class=&quot;mat-focus-indicator inline-flex items-center px-4 py-3 mt-4 h-9 border border-gray-300 shadow-xs text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 mat-stroked-button mat-button-base mat-button-disabled&quot;]</value>
+      <webElementGuid>febc6f1c-b8c5-4862-8249-8531183f41bc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-accordion-child-8']/div/div[2]/a</value>
+      <webElementGuid>617c39bc-84ca-462e-b246-129a034bae71</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contract'])[1]/following::a[1]</value>
+      <webElementGuid>ba502439-83ac-4c2e-8e70-35db56949bf2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Property'])[1]/following::a[2]</value>
+      <webElementGuid>a4ccacf9-e353-47d7-a951-71dd7fd1157c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Asset'])[1]/preceding::a[1]</value>
+      <webElementGuid>a002d153-9b9e-44c1-b6e7-ffd1a9c592a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[5]/mat-expansion-panel/div/div/div[2]/a</value>
+      <webElementGuid>565e2196-1ced-428d-a6b7-634faea97e6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Add Contract' or . = 'Add Contract')]</value>
+      <webElementGuid>2b94dd66-0fc6-4c01-b962-da85f934ac45</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

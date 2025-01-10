@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_New Customer_ Link</name>
+   <tag></tag>
+   <elementGuidId>9a86974d-9535-4628-bb5e-9005f79bbb26</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='undefined']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#undefined</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot; New Customer&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>1400222f-2181-4a6f-8fb7-529034db6d8c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>undefined</value>
+      <webElementGuid>3836f7dd-7c42-450c-b18d-7ea3149f6dba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn-primary text-white inline-flex border border-gray-300 items-center px-4 py-3 h-9 shadow-xs text-base font-medium rounded-md text-gray-700 bg-white cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 ng-star-inserted</value>
+      <webElementGuid>de19784c-ead8-4414-91c6-fb5565ef5dba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/customers/new</value>
+      <webElementGuid>f41776ff-3411-4a8c-be59-f8b0d79cc9ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>New Customer</value>
+      <webElementGuid>91d10d97-4409-4230-bb91-d58294ec8f3d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;undefined&quot;)</value>
+      <webElementGuid>788a97bc-8df7-479a-b1d3-064b314c4b99</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='undefined']</value>
+      <webElementGuid>865c0103-d7fc-4194-a5a0-1a166e6bab00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Customers'])[1]/following::a[1]</value>
+      <webElementGuid>0fc157af-b8b7-4e47-b035-49e81cb75556</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Z'])[1]/following::a[1]</value>
+      <webElementGuid>56dc8591-58d8-4efc-8205-cb8af25daa60</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All'])[1]/preceding::a[1]</value>
+      <webElementGuid>4ed86ab0-9316-47c0-a490-64c4c51c6ef3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/customers/new')]</value>
+      <webElementGuid>bdd8499f-7d31-4d86-9c4c-e65444f77288</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//breadcrumb/div/div/div/a</value>
+      <webElementGuid>7c5790d2-d082-4a80-bba6-af2220ab50ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'undefined' and @href = '/customers/new' and (text() = 'New Customer' or . = 'New Customer')]</value>
+      <webElementGuid>62c7e608-b43e-43d1-8019-7c08619ff772</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

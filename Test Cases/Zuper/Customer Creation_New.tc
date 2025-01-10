@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Customer Creation_New</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>931900f9-e788-4392-ac49-1eac236f37ad</testCaseGuid>
+</TestCaseEntity>

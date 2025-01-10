@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Create New Property</name>
+   <tag></tag>
+   <elementGuidId>5015d6df-cb9f-430d-8876-1b1bc27b9324</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#undefined</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='undefined']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot; New Property&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>bc721ba2-acf9-45b9-962d-1d451a40d8fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>undefined</value>
+      <webElementGuid>ccd0db61-8930-4852-a106-e82bcdd692cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn-primary text-white inline-flex border border-gray-300 items-center px-4 py-3 h-9 shadow-xs text-base font-medium rounded-md text-gray-700 bg-white cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 ng-star-inserted</value>
+      <webElementGuid>a955b069-3eb3-4090-b36e-54b85f6d3815</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/property/new</value>
+      <webElementGuid>b00f3b91-2893-4e9c-9fa7-6fb5f4a7f135</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>New Property</value>
+      <webElementGuid>9bdfa8e9-9c76-4089-803f-027492e752f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;undefined&quot;)</value>
+      <webElementGuid>8f33e706-6477-403b-b727-a02a0de9d9a1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='undefined']</value>
+      <webElementGuid>1c4e4d52-7a08-4a46-8b52-39be4c135c58</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Properties'])[1]/following::a[1]</value>
+      <webElementGuid>edd54b72-b5be-4a1d-9f20-eea9edef680d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Z'])[1]/following::a[1]</value>
+      <webElementGuid>c44dc0e2-2a07-4092-b86b-c0362760f195</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/property/new')]</value>
+      <webElementGuid>e9f22d91-1266-4a17-b0e6-b75926b02be4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//breadcrumb/div/div/div/a</value>
+      <webElementGuid>7d10c5e3-1ee8-4769-b3f0-6f03fe553b82</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'undefined' and @href = '/property/new' and (text() = 'New Property' or . = 'New Property')]</value>
+      <webElementGuid>6becd086-346a-4a4d-9041-c0b0d63f6988</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

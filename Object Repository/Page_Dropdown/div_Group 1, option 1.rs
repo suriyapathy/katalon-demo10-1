@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Group 1, option 1</name>
+   <tag></tag>
+   <elementGuidId>19380186-a243-42e3-abde-7792d56a8764</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#react-select-2-option-0-0</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='react-select-2-option-0-0']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Group 1, option 1&quot;s</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>692999d9-782b-4427-b7ac-411973a38556</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value> css-1n7v3ny-option</value>
+      <webElementGuid>33cc537f-e400-450c-bd1f-87529e508b5a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>react-select-2-option-0-0</value>
+      <webElementGuid>f22d7167-d195-4127-acb6-22d9ff2733b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>81196c81-ca0c-4dcc-92e4-c40b26fa52b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Group 1, option 1</value>
+      <webElementGuid>53a8a5aa-31f7-402a-aa87-37fe7e3f0732</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react-select-2-option-0-0&quot;)</value>
+      <webElementGuid>0703c805-6510-469f-87ea-707869cfc65c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='react-select-2-option-0-0']</value>
+      <webElementGuid>b2ca860f-21d6-44bd-91a2-2971dc5c7b41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='withOptGroup']/div[2]/div/div/div[2]/div</value>
+      <webElementGuid>cf108d0e-aecd-47eb-a636-e65d7787493b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Group 1'])[1]/following::div[2]</value>
+      <webElementGuid>3d74c939-8bc4-49eb-9f1e-486ec6b1abf7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Option'])[1]/following::div[11]</value>
+      <webElementGuid>9271cd25-28f7-487a-80fb-43b69c4fd2d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Group 1, option 2'])[1]/preceding::div[1]</value>
+      <webElementGuid>8f057ef1-9402-4520-b978-21e49c89c9dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Group 2'])[1]/preceding::div[2]</value>
+      <webElementGuid>5a77591a-2a16-48b0-9329-37c9e70fdd68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Group 1, option 1']/parent::*</value>
+      <webElementGuid>f85dc0fe-dd6b-42bb-9e92-ef74b1461acc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/div/div[2]/div</value>
+      <webElementGuid>c5412b92-8c46-404f-aa59-d320da48d274</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'react-select-2-option-0-0' and (text() = 'Group 1, option 1' or . = 'Group 1, option 1')]</value>
+      <webElementGuid>75257261-7d9e-423c-9013-3827cc0dc1c9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

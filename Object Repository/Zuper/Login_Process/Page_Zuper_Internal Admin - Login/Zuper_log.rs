@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Zuper_log</name>
+   <tag></tag>
+   <elementGuidId>c1626367-17a6-436c-82f4-45529d44d8cc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div/div/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img.h-10.w-auto</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=img[name=&quot;Your Company&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>3443092a-b056-471a-b048-eaf065e540b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>h-10 w-auto</value>
+      <webElementGuid>3c7f9edd-90a8-4f63-b719-ca5c988945ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://assets-global.website-files.com/62b4a93516caf13604744768/62cfcbb0937956380eea27cd_zuper-logo.svg</value>
+      <webElementGuid>ef6dd37c-8f89-412d-8671-8bc21cb9ea3f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Your Company</value>
+      <webElementGuid>57a6ab0e-748f-449a-8fdb-3cb736e98c7c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex flex-col bg-white h-screen&quot;]/div[@class=&quot;flex min-h-full flex-1&quot;]/div[@class=&quot;flex flex-1 flex-col justify-center px-4 py-6 sm:px-6 lg:flex-none lg:px-20 xl:px-24&quot;]/div[@class=&quot;mx-auto w-full max-w-sm lg:w-96 -mt-10&quot;]/div[1]/img[@class=&quot;h-10 w-auto&quot;]</value>
+      <webElementGuid>44fd6819-8e83-4f7e-aa4c-6c3009a25fdc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div/img</value>
+      <webElementGuid>f76fe2cb-a6b2-4296-9e62-2b9d8a24b011</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Your Company']</value>
+      <webElementGuid>f7829da7-2ac0-49d6-997b-0eedfec27bbe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/img</value>
+      <webElementGuid>f574e3da-5bd0-4180-98d1-87262838c03d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://assets-global.website-files.com/62b4a93516caf13604744768/62cfcbb0937956380eea27cd_zuper-logo.svg' and @alt = 'Your Company']</value>
+      <webElementGuid>190ed87e-5e72-4bcc-819b-2018c495206b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

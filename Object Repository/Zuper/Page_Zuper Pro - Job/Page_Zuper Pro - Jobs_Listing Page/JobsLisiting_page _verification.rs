@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>JobsLisiting_page _verification</name>
+   <tag></tag>
+   <elementGuidId>bad011fa-e03c-4bd4-8e42-646c0c4a0a33</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = 'Jobs' or . = 'Jobs')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.text-xl.text-gray-700.cursor-pointer.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Jobs&quot;s</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>302e1d09-0daa-49dd-b033-224049ea52ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-xl text-gray-700 cursor-pointer ng-star-inserted</value>
+      <webElementGuid>424f5ae3-b8f4-4c5c-b1f0-fa84ad0a1e3c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>4d9e71e3-d765-4055-b487-201bc952aec7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Jobs</value>
+      <webElementGuid>ef3060bb-c128-48d3-847a-a1919604b2e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;zuper-splash-screen-hidden light theme-default ng-tns-0-3&quot;]/app-root[1]/layout[@class=&quot;ng-star-inserted&quot;]/thin-layout[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex flex-col flex-auto w-full min-w-0 w-full overflow-hidden&quot;]/div[2]/breadcrumb[1]/div[@class=&quot;flex items-center bg-white border-light border-b w-full h-14 ng-star-inserted&quot;]/nav[@class=&quot;flex-1 py-4&quot;]/ol[@class=&quot;max-w-screen-xl w-full px-4 flex space-x-4 sm:px-6 lg:px-6&quot;]/li[@class=&quot;flex font-medium&quot;]/div[@class=&quot;flex items-center&quot;]/span[@class=&quot;text-xl text-gray-700 cursor-pointer ng-star-inserted&quot;]</value>
+      <webElementGuid>ce522f17-fea5-4a2e-a58a-0c316cb8018a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Z'])[1]/following::span[4]</value>
+      <webElementGuid>e686d135-0915-4d99-97b3-3eb669949ea7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/following::span[15]</value>
+      <webElementGuid>1b71ae0c-a8bd-41b5-b482-d0c1094e0178</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Recurring Jobs'])[1]/preceding::span[3]</value>
+      <webElementGuid>0fc8f3f0-0e6f-4eba-9128-16e89165aace</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Job'])[1]/preceding::span[4]</value>
+      <webElementGuid>ffaed77e-3e62-44ce-8a9b-299ce05b663b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Jobs']/parent::*</value>
+      <webElementGuid>b269cfd6-7837-468f-893a-99979762c93b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/div/span</value>
+      <webElementGuid>462f549a-a0aa-41df-b867-2e8b91169efb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Jobs' or . = 'Jobs')]</value>
+      <webElementGuid>0f8ead91-1436-4af0-ae99-f8feff89e58c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Zuper_test" time="77.142" tests="3" failures="0" errors="0">
+   <testsuite name="Zuper_test" tests="3" failures="0" errors="0" time="77.142" skipped="0" timestamp="07-01-2025T11:31:37" hostname="suriyapathy.b - Z-LAP-0135.zuper.local" id="Test Suites/Zuper_test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\suriyapathy.b\\Katalon Studio\\demo\\Reports\\20250107_113130\\Zuper_test\\20250107_113130"/>
+         <property name="logFiles" value="C:\\Users\\suriyapathy.b\\Katalon Studio\\demo\\Reports\\20250107_113130\\Zuper_test\\20250107_113130\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="suriyapathy.b - Z-LAP-0135.zuper.local"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.0.1.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="192.168.10.181"/>
+         <property name="sessionId" value="b2b0ca14ddc05cae196f9314c85d8fc9"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Zuper/Organization Creation_New" time="29.171" classname="Test Cases/Zuper/Organization Creation_New" status="PASSED">
+         <system-out><![CDATA[07-01-2025T11:31:38 - [TEST_CASE][PASSED] - Test Cases/Zuper/Organization Creation_New: Test Cases/Zuper/Organization Creation_New
+
+07-01-2025T11:31:39 - [TEST_STEP][PASSED] - openBrowser("https://stagingv3.zuperpro.com/login"): Browser is opened with url: 'https://stagingv3.zuperpro.com/login'
+
+07-01-2025T11:31:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+07-01-2025T11:31:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-01-2025T11:31:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://stagingv3.zuperpro.com/login'
+
+07-01-2025T11:31:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+07-01-2025T11:31:47 - [MESSAGE][PASSED] - Current window maximized
+
+07-01-2025T11:31:47 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+07-01-2025T11:31:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+07-01-2025T11:31:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/span_Company Name"), 3): Object 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/span_Company Name' is present
+
+07-01-2025T11:31:48 - [MESSAGE][PASSED] - Object 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/span_Company Name' is present
+
+07-01-2025T11:31:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Zuper/Company_selection Page/Page_Comapany_Selected_Page/div_Company Name"), "bg-JacksonvilleFL"): Keys 'bg-JacksonvilleFL' sent to object: 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/div_Company Name'
+
+07-01-2025T11:31:49 - [MESSAGE][PASSED] - Keys 'bg-JacksonvilleFL' sent to object: 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/div_Company Name'
+
+07-01-2025T11:31:49 - [TEST_STEP][PASSED] - click(findTestObject("Zuper/Company_selection Page/Page_Comapany_Selected_Page/button_Login"), STOP_ON_FAILURE): Object: 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/button_Login' is clicked on
+
+07-01-2025T11:31:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/button_Login' is clicked on
+
+07-01-2025T11:31:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/a_Forgot password"), STOP_ON_FAILURE): Object 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/a_Forgot password' is visible
+
+07-01-2025T11:31:51 - [MESSAGE][PASSED] - Object 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/a_Forgot password' is visible
+
+07-01-2025T11:31:51 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+07-01-2025T11:31:51 - [MESSAGE][PASSED] - Wait for page load successfully
+
+07-01-2025T11:31:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/div_Email address"), "suriyapathy.b@zuper.co"): Keys 'suriyapathy.b@zuper.co' sent to object: 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/div_Email address'
+
+07-01-2025T11:31:51 - [MESSAGE][PASSED] - Keys 'suriyapathy.b@zuper.co' sent to object: 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/div_Email address'
+
+07-01-2025T11:31:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/div_Password"), "12345678"): Keys '12345678' sent to object: 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/div_Password'
+
+07-01-2025T11:31:51 - [MESSAGE][PASSED] - Keys '12345678' sent to object: 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/div_Password'
+
+07-01-2025T11:31:51 - [TEST_STEP][PASSED] - click(findTestObject("Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/button_Login")): Object: 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/button_Login' is clicked on
+
+07-01-2025T11:31:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/button_Login' is clicked on
+
+07-01-2025T11:31:51 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+07-01-2025T11:31:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+07-01-2025T11:31:52 - [TEST_STEP][PASSED] - deleteAllCookies(STOP_ON_FAILURE): Delete all cookies successfully
+
+07-01-2025T11:31:52 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+07-01-2025T11:31:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Zuper/Page_Zuper Pro - Dashboard/Pop_Msg"), 5): Object 'Object Repository/Zuper/Page_Zuper Pro - Dashboard/Pop_Msg' is visible
+
+07-01-2025T11:31:56 - [MESSAGE][PASSED] - Object 'Object Repository/Zuper/Page_Zuper Pro - Dashboard/Pop_Msg' is visible
+
+07-01-2025T11:31:56 - [TEST_STEP][PASSED] - click(findTestObject("Zuper/Page_Zuper Pro - Dashboard/Pop_Msg"), STOP_ON_FAILURE): Object: 'Object Repository/Zuper/Page_Zuper Pro - Dashboard/Pop_Msg' is clicked on
+
+07-01-2025T11:31:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Zuper/Page_Zuper Pro - Dashboard/Pop_Msg' is clicked on
+
+07-01-2025T11:31:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Zuper/Page_Zuper Pro - Dashboard/Dashboard_verification"), 2): Object 'Object Repository/Zuper/Page_Zuper Pro - Dashboard/Dashboard_verification' is present
+
+07-01-2025T11:31:57 - [MESSAGE][PASSED] - Object 'Object Repository/Zuper/Page_Zuper Pro - Dashboard/Dashboard_verification' is present
+
+07-01-2025T11:31:57 - [TEST_STEP][PASSED] - click(findTestObject("Zuper/Page_Zuper Pro - Dashboard/MouseOverTo_Customers,Org,Prop group")): Object: 'Object Repository/Zuper/Page_Zuper Pro - Dashboard/MouseOverTo_Customers,Org,Prop group' is clicked on
+
+07-01-2025T11:31:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Zuper/Page_Zuper Pro - Dashboard/MouseOverTo_Customers,Org,Prop group' is clicked on
+
+07-01-2025T11:31:57 - [TEST_STEP][PASSED] - click(findTestObject("Zuper/Page_Zuper Pro - Dashboard/a_Organizations")): Object: 'Object Repository/Zuper/Page_Zuper Pro - Dashboard/a_Organizations' is clicked on
+
+07-01-2025T11:31:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Zuper/Page_Zuper Pro - Dashboard/a_Organizations' is clicked on
+
+07-01-2025T11:31:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro - Organizations_Listing page/Organizations_Verification"), 2): Object 'Object Repository/Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro - Organizations_Listing page/Organizations_Verification' is present
+
+07-01-2025T11:31:57 - [MESSAGE][PASSED] - Object 'Object Repository/Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro - Organizations_Listing page/Organizations_Verification' is present
+
+07-01-2025T11:31:57 - [TEST_STEP][PASSED] - click(findTestObject("Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro - Organizations_Listing page/Creation_New Organization")): Object: 'Object Repository/Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro - Organizations_Listing page/Creation_New Organization' is clicked on
+
+07-01-2025T11:31:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro - Organizations_Listing page/Creation_New Organization' is clicked on
+
+07-01-2025T11:31:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/organization_name"), 2): Object 'Object Repository/Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/organization_name' is present
+
+07-01-2025T11:31:58 - [MESSAGE][PASSED] - Object 'Object Repository/Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/organization_name' is present
+
+07-01-2025T11:31:58 - [TEST_STEP][PASSED] - length = 8: null
+
+07-01-2025T11:31:58 - [TEST_STEP][PASSED] - characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789": null
+
+07-01-2025T11:31:58 - [TEST_STEP][PASSED] - random = new java.util.Random(): null
+
+07-01-2025T11:31:58 - [TEST_STEP][PASSED] - randomString = "Org" +  }).join(): null
+
+07-01-2025T11:31:58 - [TEST_STEP][PASSED] - setText(findTestObject("Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/organization_name"), randomString): Text 'OrgXqwMKpnF' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/organization_name'
+
+07-01-2025T11:31:59 - [MESSAGE][PASSED] - Text 'OrgXqwMKpnF' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/organization_name'
+
+07-01-2025T11:31:59 - [TEST_STEP][PASSED] - setText(findTestObject("Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/Organization_Email"), "Organization@gmail.com"): Text 'Organization@gmail.com' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/Organization_Email'
+
+07-01-2025T11:31:59 - [MESSAGE][PASSED] - Text 'Organization@gmail.com' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/Organization_Email'
+
+07-01-2025T11:31:59 - [TEST_STEP][PASSED] - click(findTestObject("Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/Org_Billing Address_same-as-service-address")): Object: 'Object Repository/Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/Org_Billing Address_same-as-service-address' is clicked on
+
+07-01-2025T11:32:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/Org_Billing Address_same-as-service-address' is clicked on
+
+07-01-2025T11:32:00 - [TEST_STEP][PASSED] - setText(findTestObject("Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/Organization_Street"), "1st street"): Text '1st street' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/Organization_Street'
+
+07-01-2025T11:32:00 - [MESSAGE][PASSED] - Text '1st street' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/Organization_Street'
+
+07-01-2025T11:32:00 - [TEST_STEP][PASSED] - setText(findTestObject("Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/Organization_city"), "chennai"): Text 'chennai' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/Organization_city'
+
+07-01-2025T11:32:01 - [MESSAGE][PASSED] - Text 'chennai' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/Organization_city'
+
+07-01-2025T11:32:01 - [TEST_STEP][PASSED] - setText(findTestObject("Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/Organization_State"), "Andhra"): Text 'Andhra' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/Organization_State'
+
+07-01-2025T11:32:01 - [MESSAGE][PASSED] - Text 'Andhra' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/Organization_State'
+
+07-01-2025T11:32:01 - [TEST_STEP][PASSED] - setText(findTestObject("Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/Organization_Landmark"), "Near BSR Mall"): Text 'Near BSR Mall' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/Organization_Landmark'
+
+07-01-2025T11:32:01 - [MESSAGE][PASSED] - Text 'Near BSR Mall' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/Organization_Landmark'
+
+07-01-2025T11:32:01 - [TEST_STEP][PASSED] - setText(findTestObject("Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/Organization_Zipcode"), "123456"): Text '123456' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/Organization_Zipcode'
+
+07-01-2025T11:32:02 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/Organization_Zipcode'
+
+07-01-2025T11:32:02 - [TEST_STEP][PASSED] - click(findTestObject("Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/Organization_Country"), STOP_ON_FAILURE): Object: 'Object Repository/Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/Organization_Country' is clicked on
+
+07-01-2025T11:32:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/Organization_Country' is clicked on
+
+07-01-2025T11:32:02 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+07-01-2025T11:32:02 - [TEST_STEP][PASSED] - elements = driver.findElements(By.xpath("//div[contains(@id,"mat-autocomplete")]//mat-option")): null
+
+07-01-2025T11:32:05 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement element : elements): null
+
+07-01-2025T11:32:05 - [TEST_STEP][PASSED] - text = element.getText(): null
+
+07-01-2025T11:32:05 - [TEST_STEP][PASSED] - println("Element Text: " + text): null
+
+07-01-2025T11:32:05 - [TEST_STEP][PASSED] - if (text.equals("Afghanistan")): null
+
+07-01-2025T11:32:05 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click();", Arrays.asList(element)): Execute JavaScript 'arguments[0].click();' successfully
+
+07-01-2025T11:32:05 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully
+
+07-01-2025T11:32:05 - [TEST_STEP][PASSED] - break: null
+
+07-01-2025T11:32:05 - [TEST_STEP][PASSED] - click(findTestObject("Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/a_Save Organization")): Object: 'Object Repository/Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/a_Save Organization' is clicked on
+
+07-01-2025T11:32:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/a_Save Organization' is clicked on
+
+07-01-2025T11:32:06 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/NewOrganizationCreate_button"), 3): Object 'Object Repository/Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/NewOrganizationCreate_button' is clickable
+
+07-01-2025T11:32:06 - [MESSAGE][PASSED] - Object 'Object Repository/Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/NewOrganizationCreate_button' is clickable
+
+07-01-2025T11:32:06 - [TEST_STEP][PASSED] - click(findTestObject("Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/NewOrganizationCreate_button")): Object: 'Object Repository/Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/NewOrganizationCreate_button' is clicked on
+
+07-01-2025T11:32:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/NewOrganizationCreate_button' is clicked on
+
+07-01-2025T11:32:06 - [TEST_STEP][PASSED] - Org_Name = getText(findTestObject("Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro - Org_Detail Page/OrganizationName_verification")): Text of object 'Object Repository/Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro - Org_Detail Page/OrganizationName_verification' is: 'OrgXqwMKpnF'
+
+07-01-2025T11:32:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro - Org_Detail Page/OrganizationName_verification' is: 'OrgXqwMKpnF'
+
+07-01-2025T11:32:07 - [TEST_STEP][PASSED] - assert Org_Name == randomString : " wrong Organization page  !": null
+
+07-01-2025T11:32:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+07-01-2025T11:32:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Zuper/Customer Creation_New" time="23.96" classname="Test Cases/Zuper/Customer Creation_New" status="PASSED">
+         <system-out><![CDATA[07-01-2025T11:32:07 - [TEST_CASE][PASSED] - Test Cases/Zuper/Customer Creation_New: Test Cases/Zuper/Customer Creation_New
+
+07-01-2025T11:32:08 - [TEST_STEP][PASSED] - openBrowser("https://stagingv3.zuperpro.com/login"): Browser is opened with url: 'https://stagingv3.zuperpro.com/login'
+
+07-01-2025T11:32:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+07-01-2025T11:32:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-01-2025T11:32:13 - [MESSAGE][PASSED] - Browser is opened with url: 'https://stagingv3.zuperpro.com/login'
+
+07-01-2025T11:32:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+07-01-2025T11:32:13 - [MESSAGE][PASSED] - Current window maximized
+
+07-01-2025T11:32:13 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+07-01-2025T11:32:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+07-01-2025T11:32:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/span_Company Name"), 3): Object 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/span_Company Name' is present
+
+07-01-2025T11:32:15 - [MESSAGE][PASSED] - Object 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/span_Company Name' is present
+
+07-01-2025T11:32:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Zuper/Company_selection Page/Page_Comapany_Selected_Page/div_Company Name"), "bg-JacksonvilleFL"): Keys 'bg-JacksonvilleFL' sent to object: 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/div_Company Name'
+
+07-01-2025T11:32:15 - [MESSAGE][PASSED] - Keys 'bg-JacksonvilleFL' sent to object: 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/div_Company Name'
+
+07-01-2025T11:32:15 - [TEST_STEP][PASSED] - click(findTestObject("Zuper/Company_selection Page/Page_Comapany_Selected_Page/button_Login"), STOP_ON_FAILURE): Object: 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/button_Login' is clicked on
+
+07-01-2025T11:32:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/button_Login' is clicked on
+
+07-01-2025T11:32:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/a_Forgot password"), STOP_ON_FAILURE): Object 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/a_Forgot password' is visible
+
+07-01-2025T11:32:16 - [MESSAGE][PASSED] - Object 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/a_Forgot password' is visible
+
+07-01-2025T11:32:16 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+07-01-2025T11:32:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+07-01-2025T11:32:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/div_Email address"), "suriyapathy.b@zuper.co"): Keys 'suriyapathy.b@zuper.co' sent to object: 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/div_Email address'
+
+07-01-2025T11:32:17 - [MESSAGE][PASSED] - Keys 'suriyapathy.b@zuper.co' sent to object: 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/div_Email address'
+
+07-01-2025T11:32:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/div_Password"), "12345678"): Keys '12345678' sent to object: 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/div_Password'
+
+07-01-2025T11:32:17 - [MESSAGE][PASSED] - Keys '12345678' sent to object: 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/div_Password'
+
+07-01-2025T11:32:17 - [TEST_STEP][PASSED] - click(findTestObject("Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/button_Login")): Object: 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/button_Login' is clicked on
+
+07-01-2025T11:32:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/button_Login' is clicked on
+
+07-01-2025T11:32:17 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+07-01-2025T11:32:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+07-01-2025T11:32:17 - [TEST_STEP][PASSED] - deleteAllCookies(STOP_ON_FAILURE): Delete all cookies successfully
+
+07-01-2025T11:32:17 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+07-01-2025T11:32:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Zuper/Page_Zuper Pro - Dashboard/Pop_Msg"), 5): Object 'Object Repository/Zuper/Page_Zuper Pro - Dashboard/Pop_Msg' is visible
+
+07-01-2025T11:32:22 - [MESSAGE][PASSED] - Object 'Object Repository/Zuper/Page_Zuper Pro - Dashboard/Pop_Msg' is visible
+
+07-01-2025T11:32:22 - [TEST_STEP][PASSED] - click(findTestObject("Zuper/Page_Zuper Pro - Dashboard/Pop_Msg"), STOP_ON_FAILURE): Object: 'Object Repository/Zuper/Page_Zuper Pro - Dashboard/Pop_Msg' is clicked on
+
+07-01-2025T11:32:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Zuper/Page_Zuper Pro - Dashboard/Pop_Msg' is clicked on
+
+07-01-2025T11:32:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Zuper/Page_Zuper Pro - Dashboard/Dashboard_verification"), 2): Object 'Object Repository/Zuper/Page_Zuper Pro - Dashboard/Dashboard_verification' is present
+
+07-01-2025T11:32:22 - [MESSAGE][PASSED] - Object 'Object Repository/Zuper/Page_Zuper Pro - Dashboard/Dashboard_verification' is present
+
+07-01-2025T11:32:22 - [TEST_STEP][PASSED] - click(findTestObject("Zuper/Page_Zuper Pro - Dashboard/MouseOverTo_Customers,Org,Prop group")): Object: 'Object Repository/Zuper/Page_Zuper Pro - Dashboard/MouseOverTo_Customers,Org,Prop group' is clicked on
+
+07-01-2025T11:32:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Zuper/Page_Zuper Pro - Dashboard/MouseOverTo_Customers,Org,Prop group' is clicked on
+
+07-01-2025T11:32:23 - [TEST_STEP][PASSED] - click(findTestObject("Zuper/Page_Zuper Pro - Dashboard/a_Customers_Click")): Object: 'Object Repository/Zuper/Page_Zuper Pro - Dashboard/a_Customers_Click' is clicked on
+
+07-01-2025T11:32:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Zuper/Page_Zuper Pro - Dashboard/a_Customers_Click' is clicked on
+
+07-01-2025T11:32:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customers_Listing Page/Customers_listingPage_Verification"), 2): Object 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customers_Listing Page/Customers_listingPage_Verification' is present
+
+07-01-2025T11:32:23 - [MESSAGE][PASSED] - Object 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customers_Listing Page/Customers_listingPage_Verification' is present
+
+07-01-2025T11:32:23 - [TEST_STEP][PASSED] - click(findTestObject("Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customers_Listing Page/a_New Customer_ Link")): Object: 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customers_Listing Page/a_New Customer_ Link' is clicked on
+
+07-01-2025T11:32:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customers_Listing Page/a_New Customer_ Link' is clicked on
+
+07-01-2025T11:32:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_Creationpage_Verification"), 2): Object 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_Creationpage_Verification' is present
+
+07-01-2025T11:32:24 - [MESSAGE][PASSED] - Object 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_Creationpage_Verification' is present
+
+07-01-2025T11:32:24 - [TEST_STEP][PASSED] - setText(findTestObject("Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_first_name"), "Test"): Text 'Test' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_first_name'
+
+07-01-2025T11:32:24 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_first_name'
+
+07-01-2025T11:32:24 - [TEST_STEP][PASSED] - setText(findTestObject("Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_last_name"), "Customer"): Text 'Customer' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_last_name'
+
+07-01-2025T11:32:25 - [MESSAGE][PASSED] - Text 'Customer' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_last_name'
+
+07-01-2025T11:32:25 - [TEST_STEP][PASSED] - setText(findTestObject("Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/input__customer_email"), "testcustomer@gmail.com"): Text 'testcustomer@gmail.com' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/input__customer_email'
+
+07-01-2025T11:32:25 - [MESSAGE][PASSED] - Text 'testcustomer@gmail.com' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/input__customer_email'
+
+07-01-2025T11:32:25 - [TEST_STEP][PASSED] - setText(findTestObject("Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_home_number"), "1"): Text '1' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_home_number'
+
+07-01-2025T11:32:25 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_home_number'
+
+07-01-2025T11:32:25 - [TEST_STEP][PASSED] - setText(findTestObject("Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_mobile_number"), "2"): Text '2' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_mobile_number'
+
+07-01-2025T11:32:26 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_mobile_number'
+
+07-01-2025T11:32:26 - [TEST_STEP][PASSED] - setText(findTestObject("Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_work_number"), "3"): Text '3' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_work_number'
+
+07-01-2025T11:32:26 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_work_number'
+
+07-01-2025T11:32:26 - [TEST_STEP][PASSED] - click(findTestObject("Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_Billing Address_same-as-service-address")): Object: 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_Billing Address_same-as-service-address' is clicked on
+
+07-01-2025T11:32:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_Billing Address_same-as-service-address' is clicked on
+
+07-01-2025T11:32:26 - [TEST_STEP][PASSED] - setText(findTestObject("Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_street address"), "1st street"): Text '1st street' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_street address'
+
+07-01-2025T11:32:26 - [MESSAGE][PASSED] - Text '1st street' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_street address'
+
+07-01-2025T11:32:26 - [TEST_STEP][PASSED] - setText(findTestObject("Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_City"), "chennai"): Text 'chennai' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_City'
+
+07-01-2025T11:32:27 - [MESSAGE][PASSED] - Text 'chennai' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_City'
+
+07-01-2025T11:32:27 - [TEST_STEP][PASSED] - setText(findTestObject("Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_State"), "Andhra"): Text 'Andhra' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_State'
+
+07-01-2025T11:32:27 - [MESSAGE][PASSED] - Text 'Andhra' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_State'
+
+07-01-2025T11:32:27 - [TEST_STEP][PASSED] - setText(findTestObject("Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_Landmark"), "Near BSR Mall"): Text 'Near BSR Mall' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_Landmark'
+
+07-01-2025T11:32:27 - [MESSAGE][PASSED] - Text 'Near BSR Mall' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_Landmark'
+
+07-01-2025T11:32:27 - [TEST_STEP][PASSED] - setText(findTestObject("Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_Zipcode"), "123456"): Text '123456' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_Zipcode'
+
+07-01-2025T11:32:27 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_Zipcode'
+
+07-01-2025T11:32:27 - [TEST_STEP][PASSED] - click(findTestObject("Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_Country"), STOP_ON_FAILURE): Object: 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_Country' is clicked on
+
+07-01-2025T11:32:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_Country' is clicked on
+
+07-01-2025T11:32:28 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+07-01-2025T11:32:28 - [TEST_STEP][PASSED] - elements = driver.findElements(By.xpath("//div[contains(@id,"mat-autocomplete")]//mat-option")): null
+
+07-01-2025T11:32:29 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement element : elements): null
+
+07-01-2025T11:32:29 - [TEST_STEP][PASSED] - text = element.getText(): null
+
+07-01-2025T11:32:29 - [TEST_STEP][PASSED] - println("Element Text: " + text): null
+
+07-01-2025T11:32:29 - [TEST_STEP][PASSED] - if (text.equals("Afghanistan")): null
+
+07-01-2025T11:32:29 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click();", Arrays.asList(element)): Execute JavaScript 'arguments[0].click();' successfully
+
+07-01-2025T11:32:29 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully
+
+07-01-2025T11:32:29 - [TEST_STEP][PASSED] - break: null
+
+07-01-2025T11:32:29 - [TEST_STEP][PASSED] - click(findTestObject("Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/a_Save Customer")): Object: 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/a_Save Customer' is clicked on
+
+07-01-2025T11:32:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/a_Save Customer' is clicked on
+
+07-01-2025T11:32:29 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/NewCustomerCreate_button"), 3): Object 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/NewCustomerCreate_button' is clickable
+
+07-01-2025T11:32:30 - [MESSAGE][PASSED] - Object 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/NewCustomerCreate_button' is clickable
+
+07-01-2025T11:32:30 - [TEST_STEP][PASSED] - click(findTestObject("Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/NewCustomerCreate_button")): Object: 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/NewCustomerCreate_button' is clicked on
+
+07-01-2025T11:32:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/NewCustomerCreate_button' is clicked on
+
+07-01-2025T11:32:30 - [TEST_STEP][PASSED] - Customer_Name = getText(findTestObject("Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Cutomer_Detail Page/CustomerName_verification")): Text of object 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Cutomer_Detail Page/CustomerName_verification' is: 'Test Customer'
+
+07-01-2025T11:32:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Cutomer_Detail Page/CustomerName_verification' is: 'Test Customer'
+
+07-01-2025T11:32:31 - [TEST_STEP][PASSED] - assert Customer_Name == "Test Customer" : " wrong customer page  !": null
+
+07-01-2025T11:32:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+07-01-2025T11:32:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Zuper/Job Creation New" time="23.393" classname="Test Cases/Zuper/Job Creation New" status="PASSED">
+         <system-out><![CDATA[07-01-2025T11:32:31 - [TEST_CASE][PASSED] - Test Cases/Zuper/Job Creation New: Test Cases/Zuper/Job Creation New
+
+07-01-2025T11:32:32 - [TEST_STEP][PASSED] - openBrowser("https://stagingv3.zuperpro.com/login"): Browser is opened with url: 'https://stagingv3.zuperpro.com/login'
+
+07-01-2025T11:32:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+07-01-2025T11:32:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-01-2025T11:32:36 - [MESSAGE][PASSED] - Browser is opened with url: 'https://stagingv3.zuperpro.com/login'
+
+07-01-2025T11:32:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+07-01-2025T11:32:36 - [MESSAGE][PASSED] - Current window maximized
+
+07-01-2025T11:32:36 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+07-01-2025T11:32:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+07-01-2025T11:32:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/span_Company Name"), 3): Object 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/span_Company Name' is present
+
+07-01-2025T11:32:37 - [MESSAGE][PASSED] - Object 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/span_Company Name' is present
+
+07-01-2025T11:32:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Zuper/Company_selection Page/Page_Comapany_Selected_Page/div_Company Name"), "bg-JacksonvilleFL"): Keys 'bg-JacksonvilleFL' sent to object: 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/div_Company Name'
+
+07-01-2025T11:32:38 - [MESSAGE][PASSED] - Keys 'bg-JacksonvilleFL' sent to object: 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/div_Company Name'
+
+07-01-2025T11:32:38 - [TEST_STEP][PASSED] - click(findTestObject("Zuper/Company_selection Page/Page_Comapany_Selected_Page/button_Login"), STOP_ON_FAILURE): Object: 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/button_Login' is clicked on
+
+07-01-2025T11:32:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/button_Login' is clicked on
+
+07-01-2025T11:32:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/a_Forgot password"), STOP_ON_FAILURE): Object 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/a_Forgot password' is visible
+
+07-01-2025T11:32:39 - [MESSAGE][PASSED] - Object 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/a_Forgot password' is visible
+
+07-01-2025T11:32:39 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+07-01-2025T11:32:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+07-01-2025T11:32:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/div_Email address"), "suriyapathy.b@zuper.co"): Keys 'suriyapathy.b@zuper.co' sent to object: 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/div_Email address'
+
+07-01-2025T11:32:39 - [MESSAGE][PASSED] - Keys 'suriyapathy.b@zuper.co' sent to object: 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/div_Email address'
+
+07-01-2025T11:32:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/div_Password"), "12345678"): Keys '12345678' sent to object: 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/div_Password'
+
+07-01-2025T11:32:40 - [MESSAGE][PASSED] - Keys '12345678' sent to object: 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/div_Password'
+
+07-01-2025T11:32:40 - [TEST_STEP][PASSED] - click(findTestObject("Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/button_Login")): Object: 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/button_Login' is clicked on
+
+07-01-2025T11:32:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/button_Login' is clicked on
+
+07-01-2025T11:32:40 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+07-01-2025T11:32:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+07-01-2025T11:32:40 - [TEST_STEP][PASSED] - deleteAllCookies(STOP_ON_FAILURE): Delete all cookies successfully
+
+07-01-2025T11:32:40 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+07-01-2025T11:32:40 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Zuper/Page_Zuper Pro - Dashboard/Pop_Msg"), 5): Object 'Object Repository/Zuper/Page_Zuper Pro - Dashboard/Pop_Msg' is visible
+
+07-01-2025T11:32:44 - [MESSAGE][PASSED] - Object 'Object Repository/Zuper/Page_Zuper Pro - Dashboard/Pop_Msg' is visible
+
+07-01-2025T11:32:44 - [TEST_STEP][PASSED] - click(findTestObject("Zuper/Page_Zuper Pro - Dashboard/Pop_Msg"), STOP_ON_FAILURE): Object: 'Object Repository/Zuper/Page_Zuper Pro - Dashboard/Pop_Msg' is clicked on
+
+07-01-2025T11:32:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Zuper/Page_Zuper Pro - Dashboard/Pop_Msg' is clicked on
+
+07-01-2025T11:32:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Zuper/Page_Zuper Pro - Dashboard/Dashboard_verification"), 2): Object 'Object Repository/Zuper/Page_Zuper Pro - Dashboard/Dashboard_verification' is present
+
+07-01-2025T11:32:45 - [MESSAGE][PASSED] - Object 'Object Repository/Zuper/Page_Zuper Pro - Dashboard/Dashboard_verification' is present
+
+07-01-2025T11:32:45 - [TEST_STEP][PASSED] - click(findTestObject("Zuper/Page_Zuper Pro - Dashboard/Jobs Group_mouse over")): Object: 'Object Repository/Zuper/Page_Zuper Pro - Dashboard/Jobs Group_mouse over' is clicked on
+
+07-01-2025T11:32:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Zuper/Page_Zuper Pro - Dashboard/Jobs Group_mouse over' is clicked on
+
+07-01-2025T11:32:45 - [TEST_STEP][PASSED] - click(findTestObject("Zuper/Page_Zuper Pro - Dashboard/Jobpage_click")): Object: 'Object Repository/Zuper/Page_Zuper Pro - Dashboard/Jobpage_click' is clicked on
+
+07-01-2025T11:32:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Zuper/Page_Zuper Pro - Dashboard/Jobpage_click' is clicked on
+
+07-01-2025T11:32:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Jobs_Listing Page/JobsLisiting_page _verification"), 2): Object 'Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Jobs_Listing Page/JobsLisiting_page _verification' is present
+
+07-01-2025T11:32:45 - [MESSAGE][PASSED] - Object 'Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Jobs_Listing Page/JobsLisiting_page _verification' is present
+
+07-01-2025T11:32:45 - [TEST_STEP][PASSED] - click(findTestObject("Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Jobs_Listing Page/New Job Creation")): Object: 'Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Jobs_Listing Page/New Job Creation' is clicked on
+
+07-01-2025T11:32:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Jobs_Listing Page/New Job Creation' is clicked on
+
+07-01-2025T11:32:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/JobsCreationpage _verification"), 2): Object 'Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/JobsCreationpage _verification' is present
+
+07-01-2025T11:32:46 - [MESSAGE][PASSED] - Object 'Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/JobsCreationpage _verification' is present
+
+07-01-2025T11:32:46 - [TEST_STEP][PASSED] - setText(findTestObject("Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/Job_Prefix"), "Test"): Text 'Test' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/Job_Prefix'
+
+07-01-2025T11:32:46 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/Job_Prefix'
+
+07-01-2025T11:32:46 - [TEST_STEP][PASSED] - setText(findTestObject("Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/Job_title"), "Validation Job"): Text 'Validation Job' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/Job_title'
+
+07-01-2025T11:32:47 - [MESSAGE][PASSED] - Text 'Validation Job' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/Job_title'
+
+07-01-2025T11:32:47 - [TEST_STEP][PASSED] - click(findTestObject("Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/Job Category")): Object: 'Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/Job Category' is clicked on
+
+07-01-2025T11:32:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/Job Category' is clicked on
+
+07-01-2025T11:32:47 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+07-01-2025T11:32:47 - [TEST_STEP][PASSED] - elements = driver.findElements(By.xpath("//span[@class='mat-option-text']")): null
+
+07-01-2025T11:32:47 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement element : elements): null
+
+07-01-2025T11:32:47 - [TEST_STEP][PASSED] - text = element.getText(): null
+
+07-01-2025T11:32:47 - [TEST_STEP][PASSED] - println("Element Text: " + text): null
+
+07-01-2025T11:32:47 - [TEST_STEP][PASSED] - if (text.equals("Validation Category")): null
+
+07-01-2025T11:32:47 - [TEST_STEP][PASSED] - text = element.getText(): null
+
+07-01-2025T11:32:47 - [TEST_STEP][PASSED] - println("Element Text: " + text): null
+
+07-01-2025T11:32:47 - [TEST_STEP][PASSED] - if (text.equals("Validation Category")): null
+
+07-01-2025T11:32:47 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click();", Arrays.asList(element)): Execute JavaScript 'arguments[0].click();' successfully
+
+07-01-2025T11:32:47 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully
+
+07-01-2025T11:32:47 - [TEST_STEP][PASSED] - break: null
+
+07-01-2025T11:32:47 - [TEST_STEP][PASSED] - click(findTestObject("Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/Add Customer")): Object: 'Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/Add Customer' is clicked on
+
+07-01-2025T11:32:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/Add Customer' is clicked on
+
+07-01-2025T11:32:48 - [TEST_STEP][PASSED] - setText(findTestObject("Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/Search_Customer"), "zuper customer"): Text 'zuper customer' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/Search_Customer'
+
+07-01-2025T11:32:49 - [MESSAGE][PASSED] - Text 'zuper customer' is set on object 'Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/Search_Customer'
+
+07-01-2025T11:32:49 - [TEST_STEP][PASSED] - actions = new org.openqa.selenium.interactions.Actions(driver): null
+
+07-01-2025T11:32:49 - [TEST_STEP][PASSED] - sendKeys(ENTER).perform(): null
+
+07-01-2025T11:32:49 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+07-01-2025T11:32:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+07-01-2025T11:32:51 - [TEST_STEP][PASSED] - click(findTestObject("Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/Selecct_circle")): Object: 'Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/Selecct_circle' is clicked on
+
+07-01-2025T11:32:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/Selecct_circle' is clicked on
+
+07-01-2025T11:32:51 - [TEST_STEP][PASSED] - click(findTestObject("Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/Choose_Customer")): Object: 'Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/Choose_Customer' is clicked on
+
+07-01-2025T11:32:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/Choose_Customer' is clicked on
+
+07-01-2025T11:32:51 - [TEST_STEP][PASSED] - click(findTestObject("Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/input_Due Date")): Object: 'Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/input_Due Date' is clicked on
+
+07-01-2025T11:32:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/input_Due Date' is clicked on
+
+07-01-2025T11:32:52 - [TEST_STEP][PASSED] - click(findTestObject("Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/Current_date")): Object: 'Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/Current_date' is clicked on
+
+07-01-2025T11:32:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/Current_date' is clicked on
+
+07-01-2025T11:32:52 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/sameAsServiceAddress"), 3): Object 'Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/sameAsServiceAddress' is clickable
+
+07-01-2025T11:32:52 - [MESSAGE][PASSED] - Object 'Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/sameAsServiceAddress' is clickable
+
+07-01-2025T11:32:52 - [TEST_STEP][PASSED] - click(findTestObject("Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/sameAsServiceAddress")): Object: 'Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/sameAsServiceAddress' is clicked on
+
+07-01-2025T11:32:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/sameAsServiceAddress' is clicked on
+
+07-01-2025T11:32:52 - [TEST_STEP][PASSED] - click(findTestObject("Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/a_Create Job")): Object: 'Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/a_Create Job' is clicked on
+
+07-01-2025T11:32:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/a_Create Job' is clicked on
+
+07-01-2025T11:32:52 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/NewJobCreate_button"), 3): Object 'Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/NewJobCreate_button' is clickable
+
+07-01-2025T11:32:52 - [MESSAGE][PASSED] - Object 'Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/NewJobCreate_button' is clickable
+
+07-01-2025T11:32:52 - [TEST_STEP][PASSED] - click(findTestObject("Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/NewJobCreate_button")): Object: 'Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/NewJobCreate_button' is clicked on
+
+07-01-2025T11:32:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/NewJobCreate_button' is clicked on
+
+07-01-2025T11:32:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Jobs_Detail Page/JobTitle"), 2): Object 'Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Jobs_Detail Page/JobTitle' is present
+
+07-01-2025T11:32:53 - [MESSAGE][PASSED] - Object 'Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Jobs_Detail Page/JobTitle' is present
+
+07-01-2025T11:32:53 - [TEST_STEP][PASSED] - Jobtitle = getText(findTestObject("Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Jobs_Detail Page/JobTitle")): Text of object 'Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Jobs_Detail Page/JobTitle' is: 'Validation Job'
+
+07-01-2025T11:32:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Jobs_Detail Page/JobTitle' is: 'Validation Job'
+
+07-01-2025T11:32:53 - [TEST_STEP][PASSED] - assert Jobtitle == "Validation Job" : " wrong Job page  !": null
+
+07-01-2025T11:32:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+07-01-2025T11:32:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[07-01-2025T11:31:37 - [TEST_SUITE][PASSED] - Zuper_test: Test Cases/Zuper/Job Creation New]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

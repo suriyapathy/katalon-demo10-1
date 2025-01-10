@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_New Property_service</name>
+   <tag></tag>
+   <elementGuidId>0508f104-dcf1-4e63-8886-73d33014cf10</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.flex.flex-2.mr-4.ng-star-inserted > div.mx-2.ng-star-inserted > #undefined</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[@id='undefined'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot; New Part/Service&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>5c4d7dc3-a23b-4f3c-87aa-d841d29bf72b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>undefined</value>
+      <webElementGuid>6bf756ef-953b-4c85-8534-c92f3476f052</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn-primary text-white inline-flex border border-gray-300 items-center px-4 py-3 h-9 shadow-xs text-base font-medium rounded-md text-gray-700 bg-white cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 ng-star-inserted</value>
+      <webElementGuid>f3074652-2150-4f2a-b6f1-1297da66ee55</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/products/new</value>
+      <webElementGuid>f310a614-31d1-4960-97e6-a960a1f3293d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>New Part/Service</value>
+      <webElementGuid>595a6995-055a-4d66-909a-b2467a61010f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;zuper-splash-screen-hidden light theme-default ng-tns-0-5&quot;]/app-root[1]/layout[@class=&quot;ng-star-inserted&quot;]/thin-layout[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex flex-col flex-auto w-full min-w-0 w-full overflow-hidden&quot;]/div[2]/breadcrumb[1]/div[@class=&quot;flex items-center bg-white border-light border-b w-full h-14 ng-star-inserted&quot;]/div[@class=&quot;flex flex-2 mr-4 ng-star-inserted&quot;]/div[@class=&quot;mx-2 ng-star-inserted&quot;]/a[@id=&quot;undefined&quot;]</value>
+      <webElementGuid>a758a768-8df2-4ac5-a6ea-2709bd35a77e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//a[@id='undefined'])[2]</value>
+      <webElementGuid>143a073a-fdf5-4567-a58b-c4300c5b52e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Groups'])[1]/following::a[1]</value>
+      <webElementGuid>907072de-292f-4eea-95bf-416eebf3e14c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Parts &amp; Services'])[2]/following::a[2]</value>
+      <webElementGuid>54d0cf55-0298-4b5c-b74e-7abc099fe132</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/products/new')]</value>
+      <webElementGuid>69b5c4ff-218a-4a10-9543-bb59e9b9e370</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//breadcrumb/div/div[2]/div/a</value>
+      <webElementGuid>36f9470e-7393-467f-99d3-1f6dfe070bf8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'undefined' and @href = '/products/new' and (text() = 'New Part/Service' or . = 'New Part/Service')]</value>
+      <webElementGuid>e72f5a66-41ac-4f02-a7e4-49bee5254474</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

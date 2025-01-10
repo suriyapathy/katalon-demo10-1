@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Add Asset</name>
+   <tag></tag>
+   <elementGuidId>52a95261-5d63-44d8-b742-bdafb8db0745</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[(text() = 'Add Asset' or . = 'Add Asset')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Asset&quot;i >> a</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>32e94100-f3a3-45b3-8d9a-9082e4435214</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-focus-indicator inline-flex items-center px-4 py-3 mt-4 h-9 border border-gray-300 shadow-xs text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 mat-stroked-button mat-button-base mat-button-disabled</value>
+      <webElementGuid>f61d0706-500e-4dc5-a889-eeecbfe74074</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>disabled</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>c6d18a30-ea29-4934-a82d-e47e4ab1d109</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>aeec0062-861f-4eb4-85c0-b24f88a1aeef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>8dd9106f-3ab8-4529-bec2-5bd950f6c4bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add Asset</value>
+      <webElementGuid>c7c5da7c-a24b-4a57-ac00-17b63a443309</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-accordion-child-9&quot;)/div[@class=&quot;mat-expansion-panel-body ng-tns-c126-76&quot;]/div[@class=&quot;p-6 flex flex-col items-center justify-center ng-star-inserted&quot;]/a[@class=&quot;mat-focus-indicator inline-flex items-center px-4 py-3 mt-4 h-9 border border-gray-300 shadow-xs text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 mat-stroked-button mat-button-base mat-button-disabled&quot;]</value>
+      <webElementGuid>20e97c8a-a6fb-4427-948e-be339560c77f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-accordion-child-9']/div/div[2]/a</value>
+      <webElementGuid>a97b03e4-444a-4100-8f27-41fb5f1fdd0d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Asset'])[1]/following::a[1]</value>
+      <webElementGuid>53da52ce-c626-4e67-b8ee-80bb0d79753a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Contract'])[1]/following::a[2]</value>
+      <webElementGuid>0e3557ed-46cc-41ce-9f4b-d0ff7b615a9b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Attachments'])[1]/preceding::a[1]</value>
+      <webElementGuid>5fa3a51e-76d8-49a5-8bd9-7f7efbdd85f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[6]/mat-expansion-panel/div/div/div[2]/a</value>
+      <webElementGuid>d36dfc20-d8dc-4c1c-b236-16de2da138c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Add Asset' or . = 'Add Asset')]</value>
+      <webElementGuid>b61818ae-c6c2-4cad-b74c-49b8cda16dad</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

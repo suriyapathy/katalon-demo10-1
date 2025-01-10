@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Customers_listingPage_Verification</name>
+   <tag></tag>
+   <elementGuidId>8518af70-b0f6-413f-8c43-90dcbe63808a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Z'])[1]/following::span[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.text-xl.text-gray-700.cursor-pointer.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Customers&quot;s</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>042dcba2-03d4-4455-8c8b-891d24bec7ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-xl text-gray-700 cursor-pointer ng-star-inserted</value>
+      <webElementGuid>5546ecad-b5ac-4740-965d-9be2874a364b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>e44773b8-39a0-4799-9546-35bb837add79</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Customers</value>
+      <webElementGuid>29fbad1c-5322-4e44-bf34-c5481ba59aa3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;zuper-splash-screen-hidden light theme-default ng-tns-0-5&quot;]/app-root[1]/layout[@class=&quot;ng-star-inserted&quot;]/thin-layout[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex flex-col flex-auto w-full min-w-0 w-full overflow-hidden&quot;]/div[2]/breadcrumb[1]/div[@class=&quot;flex items-center bg-white border-light border-b w-full h-14 ng-star-inserted&quot;]/nav[@class=&quot;flex-1 py-4&quot;]/ol[@class=&quot;max-w-screen-xl w-full px-4 flex space-x-4 sm:px-6 lg:px-6&quot;]/li[@class=&quot;flex font-medium&quot;]/div[@class=&quot;flex items-center&quot;]/span[@class=&quot;text-xl text-gray-700 cursor-pointer ng-star-inserted&quot;]</value>
+      <webElementGuid>f8995c4d-a40c-494f-8dc0-b3a559cc2307</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Z'])[1]/following::span[4]</value>
+      <webElementGuid>df9be247-5a3e-4aa2-a6cc-eb4219e06d9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/following::span[15]</value>
+      <webElementGuid>fbf74259-b7e9-4b36-a939-21b44831cbab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Customer'])[1]/preceding::span[3]</value>
+      <webElementGuid>685eecee-e71a-4ac3-99eb-5c15d99c1121</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All'])[1]/preceding::span[4]</value>
+      <webElementGuid>99b5baf3-e5ff-4d52-ba26-0be73c0f608e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Customers']/parent::*</value>
+      <webElementGuid>26d59117-f887-4aef-9eca-491c35832cfd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/div/span</value>
+      <webElementGuid>53286ac1-5811-4fb0-9557-baa5ed365f62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Customers' or . = 'Customers')]</value>
+      <webElementGuid>391fc75e-b772-4781-81b7-fce5c1614fe0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

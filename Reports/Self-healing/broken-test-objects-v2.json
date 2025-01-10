@@ -1,0 +1,284 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Droppable  jQuery UI/Page_Droppable  jQuery UI/source",
+      "brokenLocator": "//div[@id\u003d\u0027draggable\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Droppable  jQuery UI/source",
+      "brokenLocator": "//div[@id\u003d\u0027draggable\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Droppable  jQuery UI/destination",
+      "brokenLocator": "//div[@id\u003d\u0027droppable\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Droppable  jQuery UI/destination_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Internal Admin - Customers_Login/Page _Account Details_ verification",
+      "brokenLocator": "//span[(text() \u003d \u0027Account Details\u0027 or . \u003d \u0027Account Details\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Sign out\u0027])[2]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Internal Admin - Customers_Login/Page _Account Details_ verification_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Zuper/Page_Internal Admin - Customers/Hours_button",
+      "brokenLocator": "//div[@id\u003d\u0027:rba:\u0027]/div/div[2]/div/div/fieldset/div[4]/label",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Choose Session Duration\u0027])[1]/following::label[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Zuper/Page_Internal Admin - Customers/Hours_button_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Zuper/Login_Process/Page_Internal Admin - Customers/Hours_button",
+      "brokenLocator": "//div[@id\u003d\u0027:rba:\u0027]/div/div[2]/div/div/fieldset/div[4]/label",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Choose Session Duration\u0027])[1]/following::label[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Zuper/Login_Process/Page_Internal Admin - Customers/Hours_button_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Zuper/Page_Zuper Pro - Dashboard/Jobpage_click",
+      "brokenLocator": "//a[contains(@href, \u0027/jobs\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Settings\u0027])[1]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Zuper/Page_Zuper Pro - Dashboard/Jobpage_click_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Zuper/Page_Zuper Pro - Jobs_Listing Page/Jobspage _verification",
+      "brokenLocator": "//span[(text() \u003d \u0027Jobs\u0027 or . \u003d \u0027Jobs\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Z\u0027])[1]/following::span[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Zuper/Page_Zuper Pro - Jobs_Listing Page/Jobspage _verification_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Zuper/Page_Zuper Pro - Job_Creation Page/New Job page verification",
+      "brokenLocator": "//span[(text() \u003d \u0027 New Job \u0027 or . \u003d \u0027 New Job \u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Jobs\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Zuper/Page_Zuper Pro - Job_Creation Page/New Job page verification_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Zuper/Page_Zuper Pro - Jobs_Listing Page/New Job Creation",
+      "brokenLocator": "//span[(text() \u003d \u0027New Job\u0027 or . \u003d \u0027New Job\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Jobs\u0027])[1]/following::span[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Zuper/Page_Zuper Pro - Jobs_Listing Page/New Job Creation_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Zuper/Login_Process/Page_Internal Admin - CustomersPage/header _Customers- verification",
+      "brokenLocator": "//h3",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Settings\u0027])[3]/following::h3[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Zuper/Login_Process/Page_Internal Admin - CustomersPage/header _Customers- verification_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Zuper/Page_Zuper Pro - Job_Creation Page/Frame_Job description",
+      "brokenLocator": "//iframe[@id\u003d\u0027tiny-angular_51109717511735716081548_ifr\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027cdk-accordion-child-2\u0027]/div/form/div[6]/div/text-editor/div/div/editor/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Zuper/Page_Zuper Pro - Job_Creation Page/Frame_Job description_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Zuper/Login_Process/Page_Zuper_Internal Admin - Login/input_Email Address_email",
+      "brokenLocator": "//input[@id\u003d\u0027\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Zuper/Login_Process/Page_Zuper_Internal Admin - Login/input_Email Address_email_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Zuper/Page_Zuper Pro - Dashboard/Pop_Msg",
+      "brokenLocator": "#pushActionRefuse",
+      "brokenLocatorMethod": "CSS",
+      "proposedLocator": "//*[@id \u003d \u0027pushActionRefuse\u0027 and @href \u003d \u0027javascript:void(0)\u0027 and (text() \u003d \u0027No, thanks\u0027 or . \u003d \u0027No, thanks\u0027)]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Zuper/Page_Zuper Pro - Dashboard/Pop_Msg_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Zuper/Page_Zuper Pro - Job_Creation Page/NewJobCreate_button",
+      "brokenLocator": "//button[(text() \u003d \u0027 Choose Customer \u0027 or . \u003d \u0027 Choose Customer \u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Recent Announcements\u0027])[1]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Zuper/Page_Zuper Pro - Dashboard/Pop_Msg",
+      "brokenLocator": "#pushActionRefuse",
+      "brokenLocatorMethod": "CSS",
+      "proposedLocator": "//div[2]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Zuper/Page_Zuper Pro - Dashboard/Pop_Msg_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Zuper/Page_Zuper Pro - Dashboard/Pop_Msg",
+      "brokenLocator": "#pushActionRefuse",
+      "brokenLocatorMethod": "CSS",
+      "proposedLocator": "//a[@id\u003d\u0027pushActionRefuse\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Zuper/Page_Zuper Pro - Dashboard/Pop_Msg_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Zuper/Page_Zuper Pro - Cutomer_Detail Page/CustomerName_verification",
+      "brokenLocator": "#editTitle",
+      "brokenLocatorMethod": "CSS",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Z\u0027])[1]/following::span[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Zuper/Page_Zuper Pro - Cutomer_Detail Page/CustomerName_verification_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro - Org_Detail Page/OrganizationName_verification",
+      "brokenLocator": "p.title-font.text-2xl.font-bold",
+      "brokenLocatorMethod": "CSS",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Z\u0027])[1]/following::span[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro - Org_Detail Page/OrganizationName_verification_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_work_number",
+      "brokenLocator": "//input[@id\u003d\u0027customer_work_number\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[3]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_work_number_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_Country",
+      "brokenLocator": "(//input[@type\u003d\u0027text\u0027])[16]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[9]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_Country_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Zuper/Page_Zuper Pro - Parts/Page_Zuper Pro - Parts_Details page -/PartsServices_page Verificaion",
+      "brokenLocator": ".title-font.text-2xl.font-bold.break-words",
+      "brokenLocatorMethod": "CSS",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Z\u0027])[1]/following::span[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Zuper/Page_Zuper Pro - Parts/Page_Zuper Pro - Parts_Details page -/PartsServices_page Verificaion_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/Add Customer",
+      "brokenLocator": "//a[(text() \u003d \u0027Add Customer\u0027 or . \u003d \u0027Add Customer\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027cdk-accordion-child-6\u0027]/div/div/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/Add Customer_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/Choose_Customer",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Cancel\u0027])[3]/following::button[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Zipcode\u0027])[2]/following::button[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/Choose_Customer_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Cutomer_Detail Page/NewJob_From customer Page",
+      "brokenLocator": "//div[@class\u003d\"mat-tooltip-trigger text-md rounded-xl p-2 flex justify-center items-center m-auto bg-product-light product cursor-pointer\"]",
+      "brokenLocatorMethod": "CSS",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Z\u0027])[1]/following::span[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Cutomer_Detail Page/NewJob_From customer Page_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Cutomer_Detail Page/NewJob_From customer Page_navigate",
+      "brokenLocator": "//div[@class\u003d\u0027tooltip-list hover:bg-gray-100 p-2 ng-star-inserted\u0027][1]\r\n\r\n\r\n",
+      "brokenLocatorMethod": "CSS",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Z\u0027])[1]/following::span[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Cutomer_Detail Page/NewJob_From customer Page_navigate_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/Organization_Street -Tooltips",
+      "brokenLocator": "(//div[contains(@style,\u0027width: 166px;\u0027 and @class,\u0027pac-container\u0027)]//div[contains(@class,\u0027pac-item\u0027)])[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//input[@type\u003d\u0027text\u0027])[6]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/Organization_Street -Tooltips_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/NewOrganizationCreate_button",
+      "brokenLocator": "//button[@type \u003d \u0027button\u0027 and (text() \u003d \u0027 Create \u0027 or . \u003d \u0027 Create \u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Zipcode\u0027])[2]/following::button[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    }
+  ]
+}

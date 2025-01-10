@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>header _Customers- verification</name>
+   <tag></tag>
+   <elementGuidId>a9d28a63-798a-4d50-8548-1f95b19adc4c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//h3</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h3.text-lg.font-semibold.leading-6.text-gray-900</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;Customers 1&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>9259ebb6-d477-4b8b-8d34-fa05dea68a96</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-lg font-semibold leading-6 text-gray-900</value>
+      <webElementGuid>348e08e9-c4c7-4706-8f22-55b7071bdf3a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Customers1</value>
+      <webElementGuid>39bf59c7-f6ae-46b0-8223-d5c1f221e750</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;grid grid-rows-[auto_1fr_auto] w-full bg-gray-100 min-h-full&quot;]/main[@class=&quot;-mt-24&quot;]/div[@class=&quot;mx-auto h-full  max-w-[86rem] py-3 sm:px-6 lg:px-8&quot;]/div[@class=&quot;h-full flex flex-1 space-x-4&quot;]/section[@class=&quot;flex h-full min-w-0 flex-1 flex-col lg:order-last&quot;]/div[@class=&quot;h-full&quot;]/div[@class=&quot;relative h-full w-full overflow-hidden bg-white rounded-lg shadow px-4&quot;]/div[@class=&quot;p-2 h-full&quot;]/div[@class=&quot;flow-root h-full&quot;]/div[@class=&quot;-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8 h-full&quot;]/div[@class=&quot;h-full inline-block min-w-full py-4 align-middle sm:px-6 lg:px-8&quot;]/div[@class=&quot;min-h-full table relative p-3 min-w-full&quot;]/div[@class=&quot;undefined sticky top-0 mx-auto pb-3 border-b sm:flex sm:items-center sm:justify-between bg-white&quot;]/h3[@class=&quot;text-lg font-semibold leading-6 text-gray-900&quot;]</value>
+      <webElementGuid>a556494a-9875-40b9-b2b2-1b701c1cfed8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/main/div/div/section/div/div/div/div/div/div/div/div/h3</value>
+      <webElementGuid>9edf2b65-893e-4a5f-b994-f63a58cc21ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign out'])[2]/following::h3[1]</value>
+      <webElementGuid>87aea157-c301-42d3-ac6f-551945e33a5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[3]/following::h3[1]</value>
+      <webElementGuid>6363b4e0-d70b-451f-98b7-b822fb747f16</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Customer'])[1]/preceding::h3[1]</value>
+      <webElementGuid>684bb5f2-3147-4077-9c2b-c1dab865067b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Brothergutters-NorthJacksonville,FL'])[1]/preceding::h3[1]</value>
+      <webElementGuid>6287a0ac-e001-4dff-a235-a0a7aa223c80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h3</value>
+      <webElementGuid>78ce21fd-a35c-4af1-a24b-ac274067684b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'Customers1' or . = 'Customers1')]</value>
+      <webElementGuid>8b5b52c4-46fd-4f15-931c-9a31805e15d3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

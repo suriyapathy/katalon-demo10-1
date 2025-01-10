@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Login</name>
+   <tag></tag>
+   <elementGuidId>c42a4e54-da6a-483c-9e6b-759145fad745</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/following::button[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Login&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>1823ae2a-dcd7-499c-8bbc-c0f50f55e7d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-focus-indicator w-full bg-primary px-6 items-center py-3 border-none shadow-sm text-white font-medium rounded-md text-white-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 mt-6 ng-tns-c525-0 mat-stroked-button mat-button-base</value>
+      <webElementGuid>400f46c1-f25c-467c-8981-714d797c4c36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Login </value>
+      <webElementGuid>beb63f4f-c8df-452f-b143-83f71b7482c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;zuper-splash-screen-hidden light theme-default&quot;]/app-root[1]/layout[@class=&quot;ng-star-inserted&quot;]/empty-layout[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex flex-col flex-auto w-full&quot;]/div[@class=&quot;flex flex-col flex-auto&quot;]/auth-sign-in[@class=&quot;ng-tns-c525-0 ng-star-inserted&quot;]/div[@class=&quot;flex flex-col sm:flex-row items-center md:items-start sm:justify-center md:justify-start flex-auto min-w-0 ng-tns-c525-0&quot;]/div[@class=&quot;md:flex md:items-center md:justify-center w-full sm:w-auto md:h-full md:w-2/5 px-4 sm:rounded-2xl md:rounded-none sm:shadow md:shadow-none sm:bg-card ng-tns-c525-0&quot;]/div[@class=&quot;w-full max-w-full sm:w-full mx-20 sm:mx-20 ng-tns-c525-0&quot;]/form[@class=&quot;mt-8 ng-tns-c525-0 ng-pristine ng-invalid ng-star-inserted ng-touched&quot;]/button[@class=&quot;mat-focus-indicator w-full bg-primary px-6 items-center py-3 border-none shadow-sm text-white font-medium rounded-md text-white-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 mt-6 ng-tns-c525-0 mat-stroked-button mat-button-base&quot;]</value>
+      <webElementGuid>5fd840ca-0c6a-4a55-b2fd-6a9a66dd87ba</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/following::button[1]</value>
+      <webElementGuid>e96ee787-aa6d-413b-a5bd-be645b30cfb4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[2]</value>
+      <webElementGuid>fa7bb4d8-1d00-4f72-8dfb-9144a348e29e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/button</value>
+      <webElementGuid>ec7a2989-e3c0-4f51-8735-3e629f67401d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = ' Login ' or . = ' Login ')]</value>
+      <webElementGuid>57a55ab3-2217-4c35-94ca-b00af43d2cb4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

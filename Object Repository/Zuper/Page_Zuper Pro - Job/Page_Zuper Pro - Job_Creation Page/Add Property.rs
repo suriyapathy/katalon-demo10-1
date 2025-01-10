@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Add Property</name>
+   <tag></tag>
+   <elementGuidId>44ec2b15-d44f-4021-91ae-0d8c5995a1c9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[(text() = 'Add Property' or . = 'Add Property')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Property&quot;i >> a</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>ea696727-5487-438e-be86-3fe7e9059ae5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-focus-indicator inline-flex items-center px-4 py-3 mt-4 h-9 border border-gray-300 shadow-xs text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 mat-stroked-button mat-button-base</value>
+      <webElementGuid>60883780-8b6a-42db-a24f-4b44e2593a72</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>7aecd0c3-1c7e-41d1-98c4-5b5188b1050e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>03a8157c-fa1b-4463-b9b5-c546dccbb90f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add Property</value>
+      <webElementGuid>019ac2b9-58ec-4af4-a192-0b64ee8ad2c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-accordion-child-7&quot;)/div[@class=&quot;mat-expansion-panel-body ng-tns-c126-72&quot;]/div[@class=&quot;p-6 flex flex-col items-center justify-center ng-star-inserted&quot;]/a[@class=&quot;mat-focus-indicator inline-flex items-center px-4 py-3 mt-4 h-9 border border-gray-300 shadow-xs text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 mat-stroked-button mat-button-base&quot;]</value>
+      <webElementGuid>6f447eb2-9a48-4f83-b63d-72d6863fd3c4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-accordion-child-7']/div/div[2]/a</value>
+      <webElementGuid>5606f547-7284-49c8-a74a-2cb78a79351f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Property'])[1]/following::a[1]</value>
+      <webElementGuid>f1f39363-f794-4874-9d4c-0d9a76ea8b75</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Customer'])[1]/following::a[2]</value>
+      <webElementGuid>15322b24-0443-46a6-9371-13c0b883ad2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contract'])[1]/preceding::a[1]</value>
+      <webElementGuid>ed7e0dcf-bffa-4c25-9be8-bfae2d7833fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div[2]/a</value>
+      <webElementGuid>20ab0606-a629-41db-9269-1a19b6e0e3bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Add Property' or . = 'Add Property')]</value>
+      <webElementGuid>f225eef3-4713-4017-a6e0-6d7e05f7682a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

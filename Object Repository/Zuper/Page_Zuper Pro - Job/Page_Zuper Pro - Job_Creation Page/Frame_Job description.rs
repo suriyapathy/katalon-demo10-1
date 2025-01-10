@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Frame_Job description</name>
+   <tag></tag>
+   <elementGuidId>9f21689b-5f25-4e5b-ba39-72dcee4a32ae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//iframe[@class='tox-edit-area__iframe']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>a >> internal:has-text=&quot;Primary Details Job Category * (New Category)Choose a Job CategoryThis field is &quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6c01f064-f8cc-45eb-8105-50cb7c9c6e89</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>application</value>
+      <webElementGuid>fb43c35d-0a8d-4395-9401-cbd29f9beab6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tox tox-tinymce tox-tinymce--toolbar-bottom</value>
+      <webElementGuid>1750957d-6dd9-4c78-bee7-06cef27ea667</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>578b12a8-0298-4563-9361-766beacdaf18</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>To open the popup, press Shift+EnterParagraph</value>
+      <webElementGuid>2f371cec-947a-41d8-8736-df6076df8dda</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-accordion-child-2&quot;)/div[@class=&quot;mat-expansion-panel-body ng-tns-c126-55&quot;]/form[@class=&quot;grid grid-cols-6 gap-3 mx-4 my-3 mb-6 ng-tns-c126-55 ng-invalid ng-touched ng-dirty&quot;]/div[@class=&quot;col-span-6&quot;]/div[@class=&quot;h-64 text-base mt-1&quot;]/text-editor[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;h-full&quot;]/div[@class=&quot;relative h-full w-full&quot;]/editor[@class=&quot;form-control h-full ng-valid ng-star-inserted ng-dirty ng-touched&quot;]/div[@class=&quot;tox tox-tinymce tox-tinymce--toolbar-bottom&quot;]</value>
+      <webElementGuid>24f1fa86-897f-46ec-abd6-cfb2d7adf354</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-accordion-child-2']/div/form/div[6]/div/text-editor/div/div/editor/div</value>
+      <webElementGuid>c69a8382-cb63-4828-ba5b-5aa8a297f791</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Job Description'])[1]/following::div[4]</value>
+      <webElementGuid>fd71eadc-eb75-4051-b9f0-2ed1a911109d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter Tags'])[1]/following::div[6]</value>
+      <webElementGuid>dccec28d-a103-49a7-b467-c5eadcd2a5b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Part/Service Details'])[1]/preceding::div[21]</value>
+      <webElementGuid>5176f3ae-d1a8-4896-84b0-6a2d3c6b1bec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//editor/div</value>
+      <webElementGuid>25fb4485-40d9-4dfe-8d71-c15a3e5e28dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'To open the popup, press Shift+EnterParagraph' or . = 'To open the popup, press Shift+EnterParagraph')]</value>
+      <webElementGuid>3a51383b-5faa-4c5e-a1bf-c2d936b37bbd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

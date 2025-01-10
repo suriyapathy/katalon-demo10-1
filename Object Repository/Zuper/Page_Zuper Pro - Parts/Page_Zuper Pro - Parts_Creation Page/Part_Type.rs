@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Part_Type</name>
+   <tag></tag>
+   <elementGuidId>37102cdd-228e-4a6f-97cb-e3ebde653be0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-form-field-flex.ng-tns-c86-32</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'Part' or . = 'Part')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>a >> internal:has-text=&quot;Parts/Service Details Type PartPrefixPart NamePart Number Category Choose a cate&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>bdb08845-9de2-49f9-a679-50559108ef2f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-form-field-flex ng-tns-c86-32</value>
+      <webElementGuid>5d81062f-a29b-493f-859d-59f90f5a4678</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Part</value>
+      <webElementGuid>afd26228-541e-4450-a549-cb08805529d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-accordion-child-0&quot;)/div[@class=&quot;mat-expansion-panel-body ng-tns-c126-30&quot;]/form[@class=&quot;grid grid-cols-1 gap-3 mt-3 mx-4 mb-6 ng-tns-c126-30 ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;col-span-1&quot;]/mat-form-field[@class=&quot;mat-form-field w-full mt-1 ng-tns-c86-32 mat-primary mat-form-field-type-mat-select mat-form-field-appearance-fill mat-form-field-can-float ng-untouched ng-pristine ng-valid ng-star-inserted mat-form-field-should-float&quot;]/div[@class=&quot;mat-form-field-wrapper ng-tns-c86-32&quot;]/div[@class=&quot;mat-form-field-flex ng-tns-c86-32&quot;]</value>
+      <webElementGuid>c222503a-c47e-4935-81a0-0effea715251</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-accordion-child-0']/div/form/div/mat-form-field/div/div</value>
+      <webElementGuid>8b245275-71a6-41a6-a1c8-6768c4954f7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Type'])[1]/following::div[2]</value>
+      <webElementGuid>b310b3f0-576b-4f5c-bd67-821457d6b92d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Parts/Service Details'])[1]/following::div[5]</value>
+      <webElementGuid>2111278c-aa6c-4248-8202-ea70083d6d54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prefix'])[1]/preceding::div[10]</value>
+      <webElementGuid>33f938a2-ab3d-4cb7-8d5c-6a287ce2ac9b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-form-field/div/div</value>
+      <webElementGuid>c518c0c2-78f7-4672-8c6f-78e82f23a2ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Part' or . = 'Part')]</value>
+      <webElementGuid>19c05a51-1b03-4c30-bc41-42f3275fc4ba</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

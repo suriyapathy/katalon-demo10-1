@@ -1,0 +1,139 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Zuper_test,Chrome 131.0.0.0,,,07-01-2025 11:31:37,07-01-2025 11:32:55,1m - 17.142s,PASSED
+,,,,,,,
+Test Cases/Zuper/Organization Creation_New,Chrome 131.0.0.0,,,07-01-2025 11:31:38,07-01-2025 11:32:07,29.171s,PASSED
+"openBrowser(""https://stagingv3.zuperpro.com/login"")",Chrome 131.0.0.0,,,07-01-2025 11:31:39,07-01-2025 11:31:47,7.796s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,07-01-2025 11:31:47,07-01-2025 11:31:47,0.235s,PASSED
+waitForPageLoad(5),Chrome 131.0.0.0,,,07-01-2025 11:31:47,07-01-2025 11:31:48,0.889s,PASSED
+"verifyElementPresent(findTestObject(""Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/span_Company Name""), 3)",Chrome 131.0.0.0,,,07-01-2025 11:31:48,07-01-2025 11:31:48,0.540s,PASSED
+"sendKeys(findTestObject(""Zuper/Company_selection Page/Page_Comapany_Selected_Page/div_Company Name""), ""bg-JacksonvilleFL"")",Chrome 131.0.0.0,,,07-01-2025 11:31:48,07-01-2025 11:31:49,0.365s,PASSED
+"click(findTestObject(""Zuper/Company_selection Page/Page_Comapany_Selected_Page/button_Login""), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,07-01-2025 11:31:49,07-01-2025 11:31:49,0.335s,PASSED
+"verifyElementVisible(findTestObject(""Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/a_Forgot password""), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,07-01-2025 11:31:49,07-01-2025 11:31:51,1.610s,PASSED
+waitForPageLoad(5),Chrome 131.0.0.0,,,07-01-2025 11:31:51,07-01-2025 11:31:51,0.047s,PASSED
+"sendKeys(findTestObject(""Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/div_Email address""), ""suriyapathy.b@zuper.co"")",Chrome 131.0.0.0,,,07-01-2025 11:31:51,07-01-2025 11:31:51,0.250s,PASSED
+"sendKeys(findTestObject(""Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/div_Password""), ""12345678"")",Chrome 131.0.0.0,,,07-01-2025 11:31:51,07-01-2025 11:31:51,0.372s,PASSED
+"click(findTestObject(""Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/button_Login""))",Chrome 131.0.0.0,,,07-01-2025 11:31:51,07-01-2025 11:31:51,0.286s,PASSED
+waitForPageLoad(5),Chrome 131.0.0.0,,,07-01-2025 11:31:51,07-01-2025 11:31:52,0.040s,PASSED
+deleteAllCookies(STOP_ON_FAILURE),Chrome 131.0.0.0,,,07-01-2025 11:31:52,07-01-2025 11:31:52,0.071s,PASSED
+"waitForElementVisible(findTestObject(""Zuper/Page_Zuper Pro - Dashboard/Pop_Msg""), 5)",Chrome 131.0.0.0,,,07-01-2025 11:31:52,07-01-2025 11:31:56,4.739s,PASSED
+"click(findTestObject(""Zuper/Page_Zuper Pro - Dashboard/Pop_Msg""), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,07-01-2025 11:31:56,07-01-2025 11:31:57,0.314s,PASSED
+"verifyElementPresent(findTestObject(""Zuper/Page_Zuper Pro - Dashboard/Dashboard_verification""), 2)",Chrome 131.0.0.0,,,07-01-2025 11:31:57,07-01-2025 11:31:57,0.092s,PASSED
+"click(findTestObject(""Zuper/Page_Zuper Pro - Dashboard/MouseOverTo_Customers,Org,Prop group""))",Chrome 131.0.0.0,,,07-01-2025 11:31:57,07-01-2025 11:31:57,0.238s,PASSED
+"click(findTestObject(""Zuper/Page_Zuper Pro - Dashboard/a_Organizations""))",Chrome 131.0.0.0,,,07-01-2025 11:31:57,07-01-2025 11:31:57,0.341s,PASSED
+"verifyElementPresent(findTestObject(""Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro - Organizations_Listing page/Organizations_Verification""), 2)",Chrome 131.0.0.0,,,07-01-2025 11:31:57,07-01-2025 11:31:57,0.087s,PASSED
+"click(findTestObject(""Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro - Organizations_Listing page/Creation_New Organization""))",Chrome 131.0.0.0,,,07-01-2025 11:31:57,07-01-2025 11:31:58,0.565s,PASSED
+"verifyElementPresent(findTestObject(""Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/organization_name""), 2)",Chrome 131.0.0.0,,,07-01-2025 11:31:58,07-01-2025 11:31:58,0.069s,PASSED
+length = 8,Chrome 131.0.0.0,,,07-01-2025 11:31:58,07-01-2025 11:31:58,0.005s,PASSED
+"characters = ""ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789""",Chrome 131.0.0.0,,,07-01-2025 11:31:58,07-01-2025 11:31:58,0.003s,PASSED
+random = new java.util.Random(),Chrome 131.0.0.0,,,07-01-2025 11:31:58,07-01-2025 11:31:58,0.021s,PASSED
+"randomString = ""Org"" +  }).join()",Chrome 131.0.0.0,,,07-01-2025 11:31:58,07-01-2025 11:31:58,0.066s,PASSED
+"setText(findTestObject(""Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/organization_name""), randomString)",Chrome 131.0.0.0,,,07-01-2025 11:31:58,07-01-2025 11:31:59,0.585s,PASSED
+"setText(findTestObject(""Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/Organization_Email""), ""Organization@gmail.com"")",Chrome 131.0.0.0,,,07-01-2025 11:31:59,07-01-2025 11:31:59,0.716s,PASSED
+"click(findTestObject(""Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/Org_Billing Address_same-as-service-address""))",Chrome 131.0.0.0,,,07-01-2025 11:31:59,07-01-2025 11:32:00,0.287s,PASSED
+"setText(findTestObject(""Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/Organization_Street""), ""1st street"")",Chrome 131.0.0.0,,,07-01-2025 11:32:00,07-01-2025 11:32:00,0.519s,PASSED
+"setText(findTestObject(""Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/Organization_city""), ""chennai"")",Chrome 131.0.0.0,,,07-01-2025 11:32:00,07-01-2025 11:32:01,0.344s,PASSED
+"setText(findTestObject(""Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/Organization_State""), ""Andhra"")",Chrome 131.0.0.0,,,07-01-2025 11:32:01,07-01-2025 11:32:01,0.359s,PASSED
+"setText(findTestObject(""Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/Organization_Landmark""), ""Near BSR Mall"")",Chrome 131.0.0.0,,,07-01-2025 11:32:01,07-01-2025 11:32:01,0.391s,PASSED
+"setText(findTestObject(""Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/Organization_Zipcode""), ""123456"")",Chrome 131.0.0.0,,,07-01-2025 11:32:01,07-01-2025 11:32:02,0.352s,PASSED
+"click(findTestObject(""Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/Organization_Country""), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,07-01-2025 11:32:02,07-01-2025 11:32:02,0.296s,PASSED
+driver = getWebDriver(),Chrome 131.0.0.0,,,07-01-2025 11:32:02,07-01-2025 11:32:02,0.004s,PASSED
+"elements = driver.findElements(By.xpath(""//div[contains(@id,""mat-autocomplete"")]//mat-option""))",Chrome 131.0.0.0,,,07-01-2025 11:32:02,07-01-2025 11:32:05,3.153s,PASSED
+for (org.openqa.selenium.WebElement element : elements),Chrome 131.0.0.0,,,07-01-2025 11:32:05,07-01-2025 11:32:05,0.327s,PASSED
+"click(findTestObject(""Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/a_Save Organization""))",Chrome 131.0.0.0,,,07-01-2025 11:32:05,07-01-2025 11:32:06,0.159s,PASSED
+"waitForElementClickable(findTestObject(""Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/NewOrganizationCreate_button""), 3)",Chrome 131.0.0.0,,,07-01-2025 11:32:06,07-01-2025 11:32:06,0.121s,PASSED
+"click(findTestObject(""Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro -Organization_Creation Page/NewOrganizationCreate_button""))",Chrome 131.0.0.0,,,07-01-2025 11:32:06,07-01-2025 11:32:06,0.185s,PASSED
+"Org_Name = getText(findTestObject(""Zuper/Page_Zuper Pro - Organization/Page_Zuper Pro - Org_Detail Page/OrganizationName_verification""))",Chrome 131.0.0.0,,,07-01-2025 11:32:06,07-01-2025 11:32:07,0.583s,PASSED
+"assert Org_Name == randomString : "" wrong Organization page  !""",Chrome 131.0.0.0,,,07-01-2025 11:32:07,07-01-2025 11:32:07,0.005s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,07-01-2025 11:32:07,07-01-2025 11:32:07,0.716s,PASSED
+,,,,,,,
+Test Cases/Zuper/Customer Creation_New,Chrome 131.0.0.0,,,07-01-2025 11:32:07,07-01-2025 11:32:31,23.960s,PASSED
+"openBrowser(""https://stagingv3.zuperpro.com/login"")",Chrome 131.0.0.0,,,07-01-2025 11:32:08,07-01-2025 11:32:13,5.637s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,07-01-2025 11:32:13,07-01-2025 11:32:13,0.089s,PASSED
+waitForPageLoad(5),Chrome 131.0.0.0,,,07-01-2025 11:32:13,07-01-2025 11:32:13,0.112s,PASSED
+"verifyElementPresent(findTestObject(""Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/span_Company Name""), 3)",Chrome 131.0.0.0,,,07-01-2025 11:32:13,07-01-2025 11:32:15,1.144s,PASSED
+"sendKeys(findTestObject(""Zuper/Company_selection Page/Page_Comapany_Selected_Page/div_Company Name""), ""bg-JacksonvilleFL"")",Chrome 131.0.0.0,,,07-01-2025 11:32:15,07-01-2025 11:32:15,0.203s,PASSED
+"click(findTestObject(""Zuper/Company_selection Page/Page_Comapany_Selected_Page/button_Login""), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,07-01-2025 11:32:15,07-01-2025 11:32:15,0.147s,PASSED
+"verifyElementVisible(findTestObject(""Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/a_Forgot password""), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,07-01-2025 11:32:15,07-01-2025 11:32:16,1.582s,PASSED
+waitForPageLoad(5),Chrome 131.0.0.0,,,07-01-2025 11:32:16,07-01-2025 11:32:17,0.032s,PASSED
+"sendKeys(findTestObject(""Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/div_Email address""), ""suriyapathy.b@zuper.co"")",Chrome 131.0.0.0,,,07-01-2025 11:32:17,07-01-2025 11:32:17,0.174s,PASSED
+"sendKeys(findTestObject(""Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/div_Password""), ""12345678"")",Chrome 131.0.0.0,,,07-01-2025 11:32:17,07-01-2025 11:32:17,0.133s,PASSED
+"click(findTestObject(""Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/button_Login""))",Chrome 131.0.0.0,,,07-01-2025 11:32:17,07-01-2025 11:32:17,0.145s,PASSED
+waitForPageLoad(5),Chrome 131.0.0.0,,,07-01-2025 11:32:17,07-01-2025 11:32:17,0.019s,PASSED
+deleteAllCookies(STOP_ON_FAILURE),Chrome 131.0.0.0,,,07-01-2025 11:32:17,07-01-2025 11:32:17,0.047s,PASSED
+"waitForElementVisible(findTestObject(""Zuper/Page_Zuper Pro - Dashboard/Pop_Msg""), 5)",Chrome 131.0.0.0,,,07-01-2025 11:32:17,07-01-2025 11:32:22,4.871s,PASSED
+"click(findTestObject(""Zuper/Page_Zuper Pro - Dashboard/Pop_Msg""), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,07-01-2025 11:32:22,07-01-2025 11:32:22,0.311s,PASSED
+"verifyElementPresent(findTestObject(""Zuper/Page_Zuper Pro - Dashboard/Dashboard_verification""), 2)",Chrome 131.0.0.0,,,07-01-2025 11:32:22,07-01-2025 11:32:22,0.066s,PASSED
+"click(findTestObject(""Zuper/Page_Zuper Pro - Dashboard/MouseOverTo_Customers,Org,Prop group""))",Chrome 131.0.0.0,,,07-01-2025 11:32:22,07-01-2025 11:32:23,0.282s,PASSED
+"click(findTestObject(""Zuper/Page_Zuper Pro - Dashboard/a_Customers_Click""))",Chrome 131.0.0.0,,,07-01-2025 11:32:23,07-01-2025 11:32:23,0.251s,PASSED
+"verifyElementPresent(findTestObject(""Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customers_Listing Page/Customers_listingPage_Verification""), 2)",Chrome 131.0.0.0,,,07-01-2025 11:32:23,07-01-2025 11:32:23,0.043s,PASSED
+"click(findTestObject(""Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customers_Listing Page/a_New Customer_ Link""))",Chrome 131.0.0.0,,,07-01-2025 11:32:23,07-01-2025 11:32:24,0.699s,PASSED
+"verifyElementPresent(findTestObject(""Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_Creationpage_Verification""), 2)",Chrome 131.0.0.0,,,07-01-2025 11:32:24,07-01-2025 11:32:24,0.042s,PASSED
+"setText(findTestObject(""Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_first_name""), ""Test"")",Chrome 131.0.0.0,,,07-01-2025 11:32:24,07-01-2025 11:32:24,0.386s,PASSED
+"setText(findTestObject(""Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_last_name""), ""Customer"")",Chrome 131.0.0.0,,,07-01-2025 11:32:24,07-01-2025 11:32:25,0.707s,PASSED
+"setText(findTestObject(""Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/input__customer_email""), ""testcustomer@gmail.com"")",Chrome 131.0.0.0,,,07-01-2025 11:32:25,07-01-2025 11:32:25,0.333s,PASSED
+"setText(findTestObject(""Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_home_number""), ""1"")",Chrome 131.0.0.0,,,07-01-2025 11:32:25,07-01-2025 11:32:25,0.261s,PASSED
+"setText(findTestObject(""Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_mobile_number""), ""2"")",Chrome 131.0.0.0,,,07-01-2025 11:32:25,07-01-2025 11:32:26,0.243s,PASSED
+"setText(findTestObject(""Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_work_number""), ""3"")",Chrome 131.0.0.0,,,07-01-2025 11:32:26,07-01-2025 11:32:26,0.216s,PASSED
+"click(findTestObject(""Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_Billing Address_same-as-service-address""))",Chrome 131.0.0.0,,,07-01-2025 11:32:26,07-01-2025 11:32:26,0.191s,PASSED
+"setText(findTestObject(""Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_street address""), ""1st street"")",Chrome 131.0.0.0,,,07-01-2025 11:32:26,07-01-2025 11:32:26,0.413s,PASSED
+"setText(findTestObject(""Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_City""), ""chennai"")",Chrome 131.0.0.0,,,07-01-2025 11:32:26,07-01-2025 11:32:27,0.277s,PASSED
+"setText(findTestObject(""Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_State""), ""Andhra"")",Chrome 131.0.0.0,,,07-01-2025 11:32:27,07-01-2025 11:32:27,0.238s,PASSED
+"setText(findTestObject(""Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_Landmark""), ""Near BSR Mall"")",Chrome 131.0.0.0,,,07-01-2025 11:32:27,07-01-2025 11:32:27,0.323s,PASSED
+"setText(findTestObject(""Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_Zipcode""), ""123456"")",Chrome 131.0.0.0,,,07-01-2025 11:32:27,07-01-2025 11:32:27,0.263s,PASSED
+"click(findTestObject(""Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/Customer_Country""), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,07-01-2025 11:32:27,07-01-2025 11:32:28,0.232s,PASSED
+driver = getWebDriver(),Chrome 131.0.0.0,,,07-01-2025 11:32:28,07-01-2025 11:32:28,0.003s,PASSED
+"elements = driver.findElements(By.xpath(""//div[contains(@id,""mat-autocomplete"")]//mat-option""))",Chrome 131.0.0.0,,,07-01-2025 11:32:28,07-01-2025 11:32:29,1.349s,PASSED
+for (org.openqa.selenium.WebElement element : elements),Chrome 131.0.0.0,,,07-01-2025 11:32:29,07-01-2025 11:32:29,0.113s,PASSED
+"click(findTestObject(""Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/a_Save Customer""))",Chrome 131.0.0.0,,,07-01-2025 11:32:29,07-01-2025 11:32:29,0.265s,PASSED
+"waitForElementClickable(findTestObject(""Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/NewCustomerCreate_button""), 3)",Chrome 131.0.0.0,,,07-01-2025 11:32:29,07-01-2025 11:32:30,0.113s,PASSED
+"click(findTestObject(""Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Customer_Creation Page/NewCustomerCreate_button""))",Chrome 131.0.0.0,,,07-01-2025 11:32:30,07-01-2025 11:32:30,0.216s,PASSED
+"Customer_Name = getText(findTestObject(""Zuper/Page_Zuper Pro - Customer/Page_Zuper Pro - Cutomer_Detail Page/CustomerName_verification""))",Chrome 131.0.0.0,,,07-01-2025 11:32:30,07-01-2025 11:32:31,0.830s,PASSED
+"assert Customer_Name == ""Test Customer"" : "" wrong customer page  !""",Chrome 131.0.0.0,,,07-01-2025 11:32:31,07-01-2025 11:32:31,0.005s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,07-01-2025 11:32:31,07-01-2025 11:32:31,0.618s,PASSED
+,,,,,,,
+Test Cases/Zuper/Job Creation New,Chrome 131.0.0.0,,,07-01-2025 11:32:31,07-01-2025 11:32:55,23.393s,PASSED
+"openBrowser(""https://stagingv3.zuperpro.com/login"")",Chrome 131.0.0.0,,,07-01-2025 11:32:32,07-01-2025 11:32:36,4.641s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,07-01-2025 11:32:36,07-01-2025 11:32:36,0.095s,PASSED
+waitForPageLoad(5),Chrome 131.0.0.0,,,07-01-2025 11:32:36,07-01-2025 11:32:36,0.083s,PASSED
+"verifyElementPresent(findTestObject(""Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/span_Company Name""), 3)",Chrome 131.0.0.0,,,07-01-2025 11:32:36,07-01-2025 11:32:37,1.029s,PASSED
+"sendKeys(findTestObject(""Zuper/Company_selection Page/Page_Comapany_Selected_Page/div_Company Name""), ""bg-JacksonvilleFL"")",Chrome 131.0.0.0,,,07-01-2025 11:32:37,07-01-2025 11:32:38,0.141s,PASSED
+"click(findTestObject(""Zuper/Company_selection Page/Page_Comapany_Selected_Page/button_Login""), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,07-01-2025 11:32:38,07-01-2025 11:32:38,0.315s,PASSED
+"verifyElementVisible(findTestObject(""Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/a_Forgot password""), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,07-01-2025 11:32:38,07-01-2025 11:32:39,1.353s,PASSED
+waitForPageLoad(5),Chrome 131.0.0.0,,,07-01-2025 11:32:39,07-01-2025 11:32:39,0.020s,PASSED
+"sendKeys(findTestObject(""Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/div_Email address""), ""suriyapathy.b@zuper.co"")",Chrome 131.0.0.0,,,07-01-2025 11:32:39,07-01-2025 11:32:39,0.171s,PASSED
+"sendKeys(findTestObject(""Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/div_Password""), ""12345678"")",Chrome 131.0.0.0,,,07-01-2025 11:32:39,07-01-2025 11:32:40,0.150s,PASSED
+"click(findTestObject(""Zuper/Company_selection Page/Page_Comapany_Selected_Page/Page_Zuper Pro - Login/button_Login""))",Chrome 131.0.0.0,,,07-01-2025 11:32:40,07-01-2025 11:32:40,0.155s,PASSED
+waitForPageLoad(5),Chrome 131.0.0.0,,,07-01-2025 11:32:40,07-01-2025 11:32:40,0.017s,PASSED
+deleteAllCookies(STOP_ON_FAILURE),Chrome 131.0.0.0,,,07-01-2025 11:32:40,07-01-2025 11:32:40,0.023s,PASSED
+"waitForElementVisible(findTestObject(""Zuper/Page_Zuper Pro - Dashboard/Pop_Msg""), 5)",Chrome 131.0.0.0,,,07-01-2025 11:32:40,07-01-2025 11:32:44,4.548s,PASSED
+"click(findTestObject(""Zuper/Page_Zuper Pro - Dashboard/Pop_Msg""), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,07-01-2025 11:32:44,07-01-2025 11:32:45,0.193s,PASSED
+"verifyElementPresent(findTestObject(""Zuper/Page_Zuper Pro - Dashboard/Dashboard_verification""), 2)",Chrome 131.0.0.0,,,07-01-2025 11:32:45,07-01-2025 11:32:45,0.042s,PASSED
+"click(findTestObject(""Zuper/Page_Zuper Pro - Dashboard/Jobs Group_mouse over""))",Chrome 131.0.0.0,,,07-01-2025 11:32:45,07-01-2025 11:32:45,0.208s,PASSED
+"click(findTestObject(""Zuper/Page_Zuper Pro - Dashboard/Jobpage_click""))",Chrome 131.0.0.0,,,07-01-2025 11:32:45,07-01-2025 11:32:45,0.287s,PASSED
+"verifyElementPresent(findTestObject(""Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Jobs_Listing Page/JobsLisiting_page _verification""), 2)",Chrome 131.0.0.0,,,07-01-2025 11:32:45,07-01-2025 11:32:45,0.055s,PASSED
+"click(findTestObject(""Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Jobs_Listing Page/New Job Creation""))",Chrome 131.0.0.0,,,07-01-2025 11:32:45,07-01-2025 11:32:46,0.670s,PASSED
+"verifyElementPresent(findTestObject(""Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/JobsCreationpage _verification""), 2)",Chrome 131.0.0.0,,,07-01-2025 11:32:46,07-01-2025 11:32:46,0.041s,PASSED
+"setText(findTestObject(""Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/Job_Prefix""), ""Test"")",Chrome 131.0.0.0,,,07-01-2025 11:32:46,07-01-2025 11:32:46,0.276s,PASSED
+"setText(findTestObject(""Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/Job_title""), ""Validation Job"")",Chrome 131.0.0.0,,,07-01-2025 11:32:46,07-01-2025 11:32:47,0.620s,PASSED
+"click(findTestObject(""Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/Job Category""))",Chrome 131.0.0.0,,,07-01-2025 11:32:47,07-01-2025 11:32:47,0.280s,PASSED
+driver = getWebDriver(),Chrome 131.0.0.0,,,07-01-2025 11:32:47,07-01-2025 11:32:47,0.001s,PASSED
+"elements = driver.findElements(By.xpath(""//span[@class='mat-option-text']""))",Chrome 131.0.0.0,,,07-01-2025 11:32:47,07-01-2025 11:32:47,0.053s,PASSED
+for (org.openqa.selenium.WebElement element : elements),Chrome 131.0.0.0,,,07-01-2025 11:32:47,07-01-2025 11:32:47,0.159s,PASSED
+"click(findTestObject(""Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/Add Customer""))",Chrome 131.0.0.0,,,07-01-2025 11:32:47,07-01-2025 11:32:48,0.359s,PASSED
+"setText(findTestObject(""Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/Search_Customer""), ""zuper customer"")",Chrome 131.0.0.0,,,07-01-2025 11:32:48,07-01-2025 11:32:49,0.969s,PASSED
+actions = new org.openqa.selenium.interactions.Actions(driver),Chrome 131.0.0.0,,,07-01-2025 11:32:49,07-01-2025 11:32:49,0.024s,PASSED
+sendKeys(ENTER).perform(),Chrome 131.0.0.0,,,07-01-2025 11:32:49,07-01-2025 11:32:49,0.061s,PASSED
+"delay(2, STOP_ON_FAILURE)",Chrome 131.0.0.0,,,07-01-2025 11:32:49,07-01-2025 11:32:51,2.049s,PASSED
+"click(findTestObject(""Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/Selecct_circle""))",Chrome 131.0.0.0,,,07-01-2025 11:32:51,07-01-2025 11:32:51,0.242s,PASSED
+"click(findTestObject(""Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/Choose_Customer""))",Chrome 131.0.0.0,,,07-01-2025 11:32:51,07-01-2025 11:32:51,0.348s,PASSED
+"click(findTestObject(""Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/input_Due Date""))",Chrome 131.0.0.0,,,07-01-2025 11:32:51,07-01-2025 11:32:52,0.436s,PASSED
+"click(findTestObject(""Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/Current_date""))",Chrome 131.0.0.0,,,07-01-2025 11:32:52,07-01-2025 11:32:52,0.230s,PASSED
+"waitForElementClickable(findTestObject(""Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/sameAsServiceAddress""), 3)",Chrome 131.0.0.0,,,07-01-2025 11:32:52,07-01-2025 11:32:52,0.057s,PASSED
+"click(findTestObject(""Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/sameAsServiceAddress""))",Chrome 131.0.0.0,,,07-01-2025 11:32:52,07-01-2025 11:32:52,0.156s,PASSED
+"click(findTestObject(""Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/a_Create Job""))",Chrome 131.0.0.0,,,07-01-2025 11:32:52,07-01-2025 11:32:52,0.135s,PASSED
+"waitForElementClickable(findTestObject(""Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/NewJobCreate_button""), 3)",Chrome 131.0.0.0,,,07-01-2025 11:32:52,07-01-2025 11:32:52,0.055s,PASSED
+"click(findTestObject(""Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Job_Creation Page/NewJobCreate_button""))",Chrome 131.0.0.0,,,07-01-2025 11:32:52,07-01-2025 11:32:53,0.127s,PASSED
+"verifyElementPresent(findTestObject(""Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Jobs_Detail Page/JobTitle""), 2)",Chrome 131.0.0.0,,,07-01-2025 11:32:53,07-01-2025 11:32:53,0.817s,PASSED
+"Jobtitle = getText(findTestObject(""Zuper/Page_Zuper Pro - Job/Page_Zuper Pro - Jobs_Detail Page/JobTitle""))",Chrome 131.0.0.0,,,07-01-2025 11:32:53,07-01-2025 11:32:53,0.076s,PASSED
+"assert Jobtitle == ""Validation Job"" : "" wrong Job page  !""",Chrome 131.0.0.0,,,07-01-2025 11:32:53,07-01-2025 11:32:53,0.002s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,07-01-2025 11:32:53,07-01-2025 11:32:55,1.213s,PASSED

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Organization_Street -Tooltips</name>
+   <tag></tag>
+   <elementGuidId>60f5df8f-f68c-4f7e-84d1-50335d2b90cc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[contains(@class,'pac-container')]//div[contains(@class,'pac-item')])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Flat / House No, Street / Locality&quot;i] >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>e4d17cfa-1db1-4714-b865-5dac883d0fc7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>bc172e72-1177-4139-9504-2b5a626b29fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>formcontrolname</name>
+      <type>Main</type>
+      <value>street</value>
+      <webElementGuid>ba5d57dc-975a-47b9-8c88-be78a4900ce8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>off</value>
+      <webElementGuid>3d0e96a3-5fb1-4280-aa48-5b258de512ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mt-1 block field-full-width rounded-md border border-gray-300 focus:border-indigo-500 bg-white shadow-sm px-3 py-3 leading-none text-base ng-pristine ng-invalid ng-star-inserted pac-target-input ng-touched</value>
+      <webElementGuid>d538e141-9cdd-45a9-8f55-72e7a5a760b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Flat / House No, Street / Locality</value>
+      <webElementGuid>cc6fc976-cab7-4d66-9f14-491c517d2e2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;zuper-splash-screen-hidden light theme-default ng-tns-0-5&quot;]/app-root[1]/layout[@class=&quot;ng-star-inserted&quot;]/thin-layout[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex flex-col flex-auto w-full min-w-0 w-full overflow-hidden&quot;]/div[@class=&quot;flex flex-col flex-auto&quot;]/app-new-organization[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;parent-container flex w-full&quot;]/div[@class=&quot;left-pane w-full p-4 zuper-scrollbar&quot;]/div[@class=&quot;form-container&quot;]/form[@class=&quot;primary-font ng-pristine ng-invalid ng-touched&quot;]/div[@class=&quot;mt-4 grid grid-cols-6 gap-4&quot;]/div[@class=&quot;col-span-3&quot;]/a[@class=&quot;block w-full bg-white border border-gray-200 rounded-lg col-span-3&quot;]/div[@class=&quot;px-4 pb-4 pt-2 flex flex-col&quot;]/contact-info[1]/div[@class=&quot;w-full ng-star-inserted&quot;]/form[@class=&quot;flex w-full flex-wrap contact-info-form-div ng-pristine ng-invalid ng-touched&quot;]/div[@class=&quot;px-2 field-container-full-width py-3 ng-star-inserted&quot;]/input[@class=&quot;mt-1 block field-full-width rounded-md border border-gray-300 focus:border-indigo-500 bg-white shadow-sm px-3 py-3 leading-none text-base ng-pristine ng-invalid ng-star-inserted pac-target-input ng-touched&quot;]</value>
+      <webElementGuid>5a5a1103-313a-4d70-9842-1f57c8094962</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='text'])[6]</value>
+      <webElementGuid>884d5856-f463-4092-b490-4c4617eb9203</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/input</value>
+      <webElementGuid>52fd05f4-30ff-4083-884c-945b1ba17a5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Flat / House No, Street / Locality']</value>
+      <webElementGuid>b85d815f-af36-468c-b48e-d89590bfcbb9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
